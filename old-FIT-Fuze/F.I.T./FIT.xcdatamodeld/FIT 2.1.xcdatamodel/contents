@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="FIT-CD-2.0" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15E65" minimumToolsVersion="Xcode 4.3">
+    <entity name="Exercise" representedClassName="Exercise" syncable="YES">
+        <attribute name="equipment" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="exerciseDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="steps" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="exerciseMetaMapping" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ExerciseMetaMapping" inverseName="exercise" inverseEntity="ExerciseMetaMapping" syncable="YES"/>
+        <relationship name="history" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="History" inverseName="exercise" inverseEntity="History" syncable="YES"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Images" inverseName="exercise" inverseEntity="Images" syncable="YES"/>
+        <relationship name="primary" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PrimaryExerciseType" inverseName="exercise" inverseEntity="PrimaryExerciseType" syncable="YES"/>
+        <relationship name="secondary" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SecondaryExerciseType" inverseName="exercise" inverseEntity="SecondaryExerciseType" syncable="YES"/>
+    </entity>
+    <entity name="ExerciseMeta" representedClassName="ExerciseMeta" syncable="YES">
+        <attribute name="defaultRepetitions" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="defaultRestTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="defaultSets" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="exerciseMetaMapping" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ExerciseMetaMapping" inverseName="exerciseMeta" inverseEntity="ExerciseMetaMapping" syncable="YES"/>
+        <relationship name="sets" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="WorkoutSet" inverseName="exerciseMeta" inverseEntity="WorkoutSet" syncable="YES"/>
+    </entity>
+    <entity name="ExerciseMetaMapping" representedClassName="ExerciseMetaMapping" syncable="YES">
+        <attribute name="mappingIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="withNext" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="exercise" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Exercise" inverseName="exerciseMetaMapping" inverseEntity="Exercise" syncable="YES"/>
+        <relationship name="exerciseMeta" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ExerciseMeta" inverseName="exerciseMetaMapping" inverseEntity="ExerciseMeta" syncable="YES"/>
+        <relationship name="training" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Training" inverseName="exerciseMetaMappings" inverseEntity="Training" syncable="YES"/>
+    </entity>
+    <entity name="History" representedClassName="History" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="repetitions" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="exercise" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Exercise" inverseName="history" inverseEntity="Exercise" syncable="YES"/>
+    </entity>
+    <entity name="Images" representedClassName="Images" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="exercise" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Exercise" inverseName="images" inverseEntity="Exercise" syncable="YES"/>
+    </entity>
+    <entity name="PrimaryExerciseType" representedClassName="PrimaryExerciseType" syncable="YES">
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="exercise" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Exercise" inverseName="primary" inverseEntity="Exercise" syncable="YES"/>
+    </entity>
+    <entity name="SecondaryExerciseType" representedClassName="SecondaryExerciseType" syncable="YES">
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="exercise" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Exercise" inverseName="secondary" inverseEntity="Exercise" syncable="YES"/>
+    </entity>
+    <entity name="Training" representedClassName="Training" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="repetitionCounter" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="trainingDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="exerciseMetaMappings" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="ExerciseMetaMapping" inverseName="training" inverseEntity="ExerciseMetaMapping" syncable="YES"/>
+        <relationship name="trainingProgram" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TrainingProgram" inverseName="trainings" inverseEntity="TrainingProgram" syncable="YES"/>
+    </entity>
+    <entity name="TrainingProgram" representedClassName="TrainingProgram" syncable="YES">
+        <attribute name="isFree" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isPurchased" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="programDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="programId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userProgram" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="workoutRepetition" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="trainings" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Training" inverseName="trainingProgram" inverseEntity="Training" syncable="YES"/>
+    </entity>
+    <entity name="WorkoutSet" representedClassName="WorkoutSet" elementID="Set" syncable="YES">
+        <attribute name="repetitions" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="weights" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="exerciseMeta" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ExerciseMeta" inverseName="sets" inverseEntity="ExerciseMeta" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Exercise" positionX="-216" positionY="-36" width="128" height="195"/>
+        <element name="ExerciseMeta" positionX="-225" positionY="-45" width="128" height="120"/>
+        <element name="ExerciseMetaMapping" positionX="-207" positionY="-27" width="128" height="120"/>
+        <element name="History" positionX="-225" positionY="0" width="128" height="105"/>
+        <element name="Images" positionX="-189" positionY="0" width="128" height="73"/>
+        <element name="PrimaryExerciseType" positionX="-180" positionY="9" width="128" height="75"/>
+        <element name="SecondaryExerciseType" positionX="-171" positionY="18" width="128" height="75"/>
+        <element name="Training" positionX="-54" positionY="-9" width="128" height="118"/>
+        <element name="TrainingProgram" positionX="-389" positionY="-118" width="128" height="193"/>
+        <element name="WorkoutSet" positionX="-198" positionY="-18" width="128" height="90"/>
+    </elements>
+</model>

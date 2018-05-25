@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>FIT Fuze PRO</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>FIT Fuze</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>119</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>2852dc7eda9259306f5e598f3445f792888a9ab1</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>We need camera access to make photos for your custom exercises.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Read heart rate monitor data.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Share workout data with Health and Activity apps.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>All we need is camera access to make photos for your custom exercises, but we can only access camera together with microfone.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Use your photos or images to create exercise descriptions</string>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>Start</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>START_NEXT_WORKOUT_SHORTCUT_SUBTITLE</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>START_NEXT_WORKOUT_SHORTCUT_TITLE</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.FITFuze.000</string>
+		</dict>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+		<string>healthkit</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

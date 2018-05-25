@@ -1,0 +1,135 @@
+
+/* Class = "WKInterfaceButton"; title = "OK_Lbl"; ObjectID = "2c8-KV-W14"; */
+"2c8-KV-W14.title" = "OK_Lbl";
+
+/* Class = "WKInterfaceLabel"; text = "Reps"; ObjectID = "3jD-Rg-V94"; */
+"3jD-Rg-V94.text" = "Reps";
+
+/* Class = "WKInterfaceButton"; title = "Continue"; ObjectID = "5MY-bi-L8V"; */
+"5MY-bi-L8V.title" = "Continue";
+
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "6ia-XM-yHR"; */
+"6ia-XM-yHR.text" = "Label";
+
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "7RX-bV-Z2q"; */
+"7RX-bV-Z2q.text" = "Label";
+
+/* Class = "WKInterfaceMenuItem"; title = "Stop workout"; ObjectID = "9CS-0v-b2O"; */
+"9CS-0v-b2O.title" = "Завершить тренировку";
+
+/* Class = "WKInterfaceLabel"; text = "Triceps pushdowns (rope attachment)"; ObjectID = "9RL-hP-VTV"; */
+"9RL-hP-VTV.text" = "Triceps pushdowns (rope attachment)";
+
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "BL4-ff-WkY"; */
+"BL4-ff-WkY.text" = "Label";
+
+/* Class = "WKInterfaceButton"; title = "Reload"; ObjectID = "D6I-an-IBA"; */
+"D6I-an-IBA.title" = "Reload";
+
+/* Class = "WKInterfaceLabel"; text = "Rest:"; ObjectID = "EKP-oW-qte"; */
+"EKP-oW-qte.text" = "Rest:";
+
+/* Class = "WKInterfaceLabel"; text = "No sets filled for this exercise. Please create at least one set on your iPhone and reload training info. "; ObjectID = "G65-Km-PsS"; */
+"G65-Km-PsS.text" = "No sets filled for this exercise. Please create at least one set on your iPhone and reload training info. ";
+
+/* Class = "WKInterfaceLabel"; text = "s_Lbl"; ObjectID = "GvP-b0-Ubt"; */
+"GvP-b0-Ubt.text" = "s_Lbl";
+
+/* Class = "WKInterfaceLabel"; text = "Alert Label"; ObjectID = "IdU-wH-bcW"; */
+"IdU-wH-bcW.text" = "Alert Label";
+
+/* Class = "WKInterfaceMenuItem"; title = "Stop workout"; ObjectID = "Iwg-h4-75e"; */
+"Iwg-h4-75e.title" = "Завершить тренировку";
+
+/* Class = "WKInterfaceButton"; title = "OK"; ObjectID = "Iwp-Nh-8WN"; */
+"Iwp-Nh-8WN.title" = "OK";
+
+/* Class = "WKInterfaceLabel"; text = "Wgh"; ObjectID = "JXV-Y5-Hsb"; */
+"JXV-Y5-Hsb.text" = "Wgh";
+
+/* Class = "WKInterfaceMenuItem"; title = "Settings"; ObjectID = "Ovl-cU-V4s"; */
+"Ovl-cU-V4s.title" = "Настройки";
+
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "RHD-WC-7HF"; */
+"RHD-WC-7HF.text" = "Label";
+
+/* Class = "WKInterfaceLabel"; text = "Rst_tim_Lbl"; ObjectID = "SSq-gx-h6V"; */
+"SSq-gx-h6V.text" = "Rst_tim_Lbl";
+
+/* Class = "WKInterfaceLabel"; text = "Reps"; ObjectID = "UKo-Sa-byu"; */
+"UKo-Sa-byu.text" = "Reps";
+
+/* Class = "WKInterfaceButton"; title = "Skip_titile"; ObjectID = "VdX-Gd-l6D"; */
+"VdX-Gd-l6D.title" = "Skip_titile";
+
+/* Class = "WKInterfaceLabel"; text = "     "; ObjectID = "VgM-aG-OD1"; */
+"VgM-aG-OD1.text" = "     ";
+
+/* Class = "WKInterfaceLabel"; text = "Exercise_Name_Lbl"; ObjectID = "XXX-If-ymv"; */
+"XXX-If-ymv.text" = "Exercise_Name_Lbl";
+
+/* Class = "WKInterfaceMenuItem"; title = "Settings"; ObjectID = "Y2T-NR-fOB"; */
+"Y2T-NR-fOB.title" = "Настройки";
+
+/* Class = "WKInterfaceLabel"; text = "Mark_set_as_Lbl"; ObjectID = "Zo2-Wh-Q07"; */
+"Zo2-Wh-Q07.text" = "Mark_set_as_Lbl";
+
+/* Class = "WKInterfaceButton"; title = "Reload"; ObjectID = "cmb-Sr-Ysx"; */
+"cmb-Sr-Ysx.title" = "Reload";
+
+/* Class = "WKInterfaceMenuItem"; title = "Settings"; ObjectID = "dWt-7l-nfV"; */
+"dWt-7l-nfV.title" = "Настройки";
+
+/* Class = "WKInterfaceLabel"; text = "Loading..."; ObjectID = "f76-Na-KiO"; */
+"f76-Na-KiO.text" = "Loading...";
+
+/* Class = "WKInterfaceLabel"; text = "Succd_Lbl"; ObjectID = "f9A-hk-0eN"; */
+"f9A-hk-0eN.text" = "Succd_Lbl";
+
+/* Class = "WKInterfaceLabel"; text = "Wgh"; ObjectID = "hNU-f4-neX"; */
+"hNU-f4-neX.text" = "Wgh";
+
+/* Class = "WKInterfaceMenuItem"; title = "Stop workout"; ObjectID = "hYu-DO-EjU"; */
+"hYu-DO-EjU.title" = "Завершить тренировку";
+
+/* Class = "WKInterfaceButton"; title = "FINISH"; ObjectID = "iY7-l5-VWx"; */
+"iY7-l5-VWx.title" = "FINISH";
+
+/* Class = "WKInterfaceMenuItem"; title = "Stop workout"; ObjectID = "kpg-te-7gw"; */
+"kpg-te-7gw.title" = "Завершить тренировку";
+
+/* Class = "WKInterfaceButton"; title = "Start set (2 of 6)"; ObjectID = "lBh-Ja-d58"; */
+"lBh-Ja-d58.title" = "Start set (2 of 6)";
+
+/* Class = "WKInterfaceLabel"; text = "Failed_Lbl"; ObjectID = "lKc-5q-eae"; */
+"lKc-5q-eae.text" = "Failed_Lbl";
+
+/* Class = "WKInterfaceLabel"; text = "      "; ObjectID = "m65-GC-dKt"; */
+"m65-GC-dKt.text" = "      ";
+
+/* Class = "WKInterfaceLabel"; text = "AlreadyDoneLabel"; ObjectID = "n20-0e-Rce"; */
+"n20-0e-Rce.text" = "AlreadyDoneLabel";
+
+/* Class = "WKInterfaceLabel"; text = "Exercise_name_Lbl"; ObjectID = "n5Z-8O-WGx"; */
+"n5Z-8O-WGx.text" = "Exercise_name_Lbl";
+
+/* Class = "WKInterfaceButton"; title = "Restart"; ObjectID = "qJD-ld-fRH"; */
+"qJD-ld-fRH.title" = "Restart";
+
+/* Class = "WKInterfaceLabel"; text = "Do you want to continue the already started workout?"; ObjectID = "qd1-cS-PgB"; */
+"qd1-cS-PgB.text" = "Do you want to continue the already started workout?";
+
+/* Class = "WKInterfaceLabel"; text = " "; ObjectID = "qnU-qD-rcW"; */
+"qnU-qD-rcW.text" = " ";
+
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "rDG-KE-4Jn"; */
+"rDG-KE-4Jn.text" = "Label";
+
+/* Class = "WKInterfaceMenuItem"; title = "Settings"; ObjectID = "syn-1G-EcF"; */
+"syn-1G-EcF.title" = "Настройки";
+
+/* Class = "WKInterfaceLabel"; text = "Start Fit Fuze on your iPhone and choose the training plan"; ObjectID = "w5N-hI-ew1"; */
+"w5N-hI-ew1.text" = "Start Fit Fuze on your iPhone and choose the training plan";
+
+/* Class = "WKInterfaceLabel"; text = "W_fnished_Lbl"; ObjectID = "zgl-E1-acx"; */
+"zgl-E1-acx.text" = "W_fnished_Lbl";

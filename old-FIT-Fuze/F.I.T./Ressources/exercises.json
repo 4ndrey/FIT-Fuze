@@ -1,0 +1,4649 @@
+{
+  "exercises": [
+    {
+      "name": "Ab Crunch Machine",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Ab Oblique Crunch Machine",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        },
+        {
+          "type": "obliques"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "lowerback"
+        }
+      ]
+    },
+    {
+      "name": "Ab Oblique Crunch Machine Variation",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        },
+        {
+          "type": "obliques"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Ab-Bench Crunch",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Ab-Bench Crunch With Rotation",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Alternate Dumbbell Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "Alternate Hammer Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "Alternate Incline Dumbbell Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "Alternate Incline Hammer Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "Alternate Seated Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Seated Arnold Dumbbell Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Back Extension Machine",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lowerback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Barbell Behind The Back Shrug",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "trapezius"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        },
+        {
+          "type": "middleback"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Behind The Back Wrist Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "forearms"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Barbell Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Barbell Dead Lift",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lowerback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "calves"
+        },
+        {
+          "type": "forearms"
+        },
+        {
+          "type": "glutes"
+        },
+        {
+          "type": "hamstrings"
+        },
+        {
+          "type": "lats"
+        },
+        {
+          "type": "middleback"
+        },
+        {
+          "type": "quads"
+        },
+        {
+          "type": "trapezius"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Hack Squat",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "quads"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Barbell Incline Triceps Extension",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Barbell Lunge",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "quads"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "EZ-Barbell Preacher Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "EZ-Barbell Pullover",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "lats"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Rear Delt Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "lats"
+        },
+        {
+          "type": "middleback"
+        }
+      ]
+    },
+    {
+      "name": "Barbell Shrug",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "trapezius"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Barbell Squat",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "quads"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Barbell Upright Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "trapezius"
+        }
+      ]
+    },
+    {
+      "name": "EZ-Barbell Wide Grip Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Bench Dips",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "chest"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Bench Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Bench Push Ups",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Biceps Curl Machine",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Biceps Curl Squat",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "quads"
+        },
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Butterfly Machine",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Cable Biceps Curls (Rope attachement)",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Cable Crossover Variation",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Cable Crunch",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Cable Incline Triceps Extension with Bar",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Cable One Arm Triceps Extension",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Cable Shrugs",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "trapezius"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Cable Triceps Extension With Bar",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Cable Upright Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "trapezius"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Calf Press Machine",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "calves"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Calf Press On The Leg Press Machine",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "calves"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Close Hands Push Ups",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Concentration Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Cross-Body Crunch",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Crossed Arms Ab-Bench Crunch",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Crunch",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Dumbbell Bench Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Dumbbell Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Dumbbell Flyes",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Dumbbell Hammer Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "Dumbbell Incline Bench Flyes",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Dumbbell Incline Bench Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Dumbbell Lunge",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "quads"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Dumbbell Pullover",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "lats"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Dumbbell Reverse Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "Dumbbell Shrug",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "trapezius"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Dumbbell Squat",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "quads"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Dumbbell Triceps Extension",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Dumbbell Upright Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "trapezius"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "biceps"
+        }
+      ]
+    },
+    {
+      "name": "EZ-Barbell Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "EZ-Barbell Upright Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "trapezius"
+        }
+      ]
+    },
+    {
+      "name": "Flat Cable Chest Flyes",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Front Barbell Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Front Barbell Squat",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "quads"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "One Arm Front Cable Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Front Dumbbell Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Full Range Of Motion Cable Straight Crossover",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        },
+        {
+          "type": "middleback"
+        },
+        {
+          "type": "lowerback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Full Range Of Motion Lat Pulldown",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "middleback"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Hammer Grip Dumbell Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Hammer Grip Incline Dumbell Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Hammer Grip Pull Up",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "biceps"
+        }
+      ]
+    },
+    {
+      "name": "Hanging Knee Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Hanging Leg Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "High Cable Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Hyperextension",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lowerback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "glutes"
+        },
+        {
+          "type": "hamstrings"
+        }
+      ]
+    },
+    {
+      "name": "Incline Bench Cable Flyes",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Incline Bench Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Incline Bench Side Bend",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "obliques"
+        },
+        {
+          "type": "abdominals"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Incline Dumbbell Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Incline Dumbbell Triceps Extension",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Incline Machine Chest Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Knee Raise On Parallel Bars",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Kneeling Cable Concentration Triceps Extension",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Kneeling Cable Triceps Extension",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Lat Pulldown",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "middleback"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Lat Pulldown Behind Neck",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "middleback"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Leg Raises On Parallel Bars",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Lying Barbell Front Raise And Pullover",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "lats"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Lying EZ-Barbell Triceps Extension",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Lying EZ-Barbell Triceps Extension Behind Head",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Lying Cable Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Lying Dumbbell Rear Lateral Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Lying Dumbbell Triceps Extension",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Lying Incline Barbell Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "middleback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "lats"
+        }
+      ]
+    },
+    {
+      "name": "Lying Incline Dumbbell Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "middleback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "lats"
+        }
+      ]
+    },
+    {
+      "name": "Lying Leg Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "hamstrings"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Lying Middle Back Shrug",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "middleback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Lying Supine Dumbbell Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Machine Chest Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Machine Hammer Grip Seated Rows",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "middleback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "lats"
+        }
+      ]
+    },
+    {
+      "name": "Machine Hammer Grip Shoulder Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Machine Lat Pulldown",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "middleback"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Machine Lateral Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Machine Reverse Grip Butterfly",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Machine Reverse Grip Lat Pulldown",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "middleback"
+        }
+      ]
+    },
+    {
+      "name": "Machine Reverse Grip Seated Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "middleback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "lats"
+        }
+      ]
+    },
+    {
+      "name": "Machine Reverse Hammer Grip Butterfly",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Machine Seated Dips",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "chest"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Machine Seated Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "middleback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "lats"
+        }
+      ]
+    },
+    {
+      "name": "Machine Seated Row Variation",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "middleback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "lats"
+        }
+      ]
+    },
+    {
+      "name": "Machine Shoulder Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Machine Shoulder Press Variation",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Narrow Dips",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "chest"
+        }
+      ]
+    },
+    {
+      "name": "Narrow Grip Bench Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "chest"
+        }
+      ]
+    },
+    {
+      "name": "Narrow Grip Incline Bench Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "chest"
+        }
+      ]
+    },
+    {
+      "name": "Narrow Grip Lat Pulldown",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "middleback"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Narrow Parallel Grip Chin Ups",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "middleback"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "One Arm Cable Lateral Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "One Arm Cable Triceps Extension",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "One Arm Dumbbell Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "One Arm Dumbbell Front Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "One Arm Dumbbell Hammer Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "One Arm Dumbbell Reverse Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "One Arm Dumbbell Shoulder Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "One Arm Dumbbell Triceps Extension",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "One Arm Lat Pulldown",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "middleback"
+        }
+      ]
+    },
+    {
+      "name": "One Arm Lateral Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "One Arm Preacher Dumbbell Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "One Arm Reverse Grip Dumbbell Preacher Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "One Arm Seated Cable Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "middleback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "lats"
+        },
+        {
+          "type": "trapezius"
+        }
+      ]
+    },
+    {
+      "name": "One Arm Seated Hammer Dumbbell Front Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Overhead EZ-Barbell Triceps Extension",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Overhead Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Power Roller Crunch",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Preacher Curl with Machine",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Preacher Hammer Grip Dumbbell Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "Prone Incline EZ-Barbell Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Prone Incline Dumbbell Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Push Ups",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Rear Delts Dumbbell Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "lats"
+        },
+        {
+          "type": "middleback"
+        }
+      ]
+    },
+    {
+      "name": "Reverse Concentration Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "Reverse Grip Barbell Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "Reverse Grip EZ-Barbell Preacher Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "Reverse Grip Bent Over Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "middleback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "lats"
+        }
+      ]
+    },
+    {
+      "name": "One Arm Reverse Grip Cable Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "Reverse Grip Cable Triceps Pushdowns",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Reverse Grip Dumbbell Preacher Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "Reverse Grip EZ-Barbell Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "Reverse Grip Pull Up",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "middleback"
+        }
+      ]
+    },
+    {
+      "name": "Reverse Narrow Grip Lat Pulldown",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "middleback"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Reverse Triceps Bench Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "chest"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Rope Lat Pulldown",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "middleback"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Rotation Crunch",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Seated Barbell Military Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Seated Behind Head Military Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Seated Bent Over One Arm Dumbbell Triceps Extension",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Seated Cable Crunch",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Seated Cable Rear Lateral Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "trapezius"
+        }
+      ]
+    },
+    {
+      "name": "Seated Calf Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "calves"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Seated Dumbbell Shoulder Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Seated Dumbbell Triceps Extension",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Seated Hammer Grip Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "Seated Hammer Grip Pulldown",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "middleback"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Seated Hammer Grip Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "middleback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "lats"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Seated Leg Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "hamstrings"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Seated Leg Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "quads"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Seated Leg Extension",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "quads"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Seated Leg Pull In",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Seated Narrow Grip Barbell Concentration Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Seated Palms Down Barbell Wrist Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "forearms"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Seated Palms Up Barbell Wrist Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "forearms"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Seated Rear Delt Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Seated Side Lateral Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Seated V-Bar Pulldown",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "middleback"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Seated V-Bar Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "middleback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "lats"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Side Dumbbell Bend",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "abdominals"
+        },
+        {
+          "type": "obliques"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Side Lateral Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Bench Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Calf Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "calves"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Dead Lift",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lowerback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "calves"
+        },
+        {
+          "type": "forearms"
+        },
+        {
+          "type": "glutes"
+        },
+        {
+          "type": "hamstrings"
+        },
+        {
+          "type": "lats"
+        },
+        {
+          "type": "middleback"
+        },
+        {
+          "type": "quads"
+        },
+        {
+          "type": "trapezius"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Decline Bench Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Hack Squat",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "quads"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Incline Bench Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Narrow Grip Bench Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "chest"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Narrow Grip Decline Bench Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "chest"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Narrow Grip Incline Bench Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "chest"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Rear Delt Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "lats"
+        },
+        {
+          "type": "middleback"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Reverse Grip Bench Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Reverse Grip Bent Over Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "middleback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "lats"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Reverse Grip Incline Bench Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Shoulder Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Shoulder Press (behind the head)",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Shrug",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "trapezius"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "middleback"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Squat",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "quads"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Standing Military Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Smith Machine Upright Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "trapezius"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "middleback"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Standing Barbell Reverse Biceps Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "forearms"
+        }
+      ]
+    },
+    {
+      "name": "Standing Behind Head Military Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Standing One Arm Biceps Cable Curl",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "biceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Standing Bottom Cable Flys",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Standing Cable Chest Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Standing Cable Flyes",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Standing Cable Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "middleback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "lats"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Standing Dumbbell Shoulder Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Standing Military Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Standing One Leg Kick Back Machine",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "glutes"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "hamstrings"
+        }
+      ]
+    },
+    {
+      "name": "Standing V-Bar Row",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "middleback"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "biceps"
+        },
+        {
+          "type": "lats"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Straight-Arm Pulldown",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Super-Incline Machine Chest Press",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "triceps"
+        }
+      ]
+    },
+    {
+      "name": "Thigh Abductor",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "hipabductors"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "glutes"
+        }
+      ]
+    },
+    {
+      "name": "Triceps Dumbbell Kickback",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Triceps Pushdowns (Rope attachment)",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Two Hand Cable Lateral Raise",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "V-Bar Triceps Pushdown",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "triceps"
+        }
+      ],
+      "secondary": [
+        {
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "Wide Dips",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "chest"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "triceps"
+        },
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        }
+      ]
+    },
+    {
+      "name": "Wide Grip Pull Up",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "biceps"
+        }
+      ]
+    },
+    {
+      "name": "Wide Hammer Grip Pull Up",
+      "description": "",
+      "type": "",
+      "equipment": [],
+      "steps": [],
+      "primary": [
+        {
+          "type": "lats"
+        }
+      ],
+      "secondary": [
+        {
+          "type": "posteriordeltoid"
+        },
+        {
+          "type": "lateraldeltoid"
+        },
+        {
+          "type": "anteriordeltoid"
+        },
+        {
+          "type": "biceps"
+        }
+      ]
+    }
+  ]
+}

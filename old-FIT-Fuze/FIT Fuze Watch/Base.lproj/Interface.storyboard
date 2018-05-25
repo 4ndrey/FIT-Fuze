@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="F2I-gj-zXI">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="197" y="1156"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="445" y="1156"/>
+        </scene>
+        <!--startSceneID-->
+        <scene sceneID="3KD-1B-eh2">
+            <objects>
+                <controller identifier="startSceneID" id="F2I-gj-zXI" customClass="StartScreenInterfaceController">
+                    <items>
+                        <table alignment="left" id="WsZ-li-Oou">
+                            <items>
+                                <tableRow identifier="startWorkoutSelectorRowType" id="2if-1W-4SM" customClass="StartButtonRowType">
+                                    <group key="rootItem" width="1" height="170" alignment="left" layout="vertical" id="H1F-7P-mF0">
+                                        <items>
+                                            <group width="1" alignment="left" verticalAlignment="center" layout="vertical" id="OXY-Pd-AbW">
+                                                <items>
+                                                    <imageView alignment="center" image="wStart" contentMode="scaleAspectFit" id="UuK-BH-M2L"/>
+                                                    <label width="1" alignment="center" verticalAlignment="bottom" text="      " textAlignment="center" numberOfLines="3" id="m65-GC-dKt"/>
+                                                    <label width="1" alignment="center" verticalAlignment="bottom" text="     " textAlignment="center" id="VgM-aG-OD1">
+                                                        <color key="textColor" red="0.60271793603897095" green="0.602699875831604" blue="0.60271012783050537" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="font" type="system" weight="light" pointSize="13"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                            <imageView alignment="center" verticalAlignment="bottom" image="SeeMore" id="STl-GP-D23"/>
+                                        </items>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <variation key="device=watch38mm" height="160"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="doneOfLabel" destination="VgM-aG-OD1" id="G4p-3C-MNV"/>
+                                        <outlet property="moreIcon" destination="STl-GP-D23" id="SQK-5R-WSg"/>
+                                        <outlet property="startIcon" destination="UuK-BH-M2L" id="wgs-TE-dv1"/>
+                                        <outlet property="startLabel" destination="m65-GC-dKt" id="wyW-ha-1jm"/>
+                                    </connections>
+                                </tableRow>
+                                <tableRow identifier="workoutSelectorRowType" id="Bd2-Sx-SiB" customClass="WorkoutSelectorRowType">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="Og2-I4-zxU">
+                                        <items>
+                                            <label width="1" alignment="center" verticalAlignment="center" text="Label" textAlignment="center" numberOfLines="0" minimumScaleFactor="0.70000000000000007" id="rDG-KE-4Jn"/>
+                                            <label width="1" alignment="center" verticalAlignment="bottom" text="Label" textAlignment="center" id="BL4-ff-WkY">
+                                                <color key="textColor" red="0.60271793603897095" green="0.602699875831604" blue="0.60271012783050537" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="font" type="system" weight="light" pointSize="13"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" red="0.062578104436397552" green="0.11166085302829742" blue="0.13820269703865051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="doneOfLabel" destination="BL4-ff-WkY" id="9li-4J-4Vq"/>
+                                        <outlet property="workoutLabel" destination="rDG-KE-4Jn" id="SjJ-V3-fdy"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <group width="1" alignment="left" hidden="YES" layout="vertical" id="cqu-w1-xNM" userLabel="Start FitFuze on iPhone group">
+                            <items>
+                                <imageView width="87" alignment="center" verticalAlignment="center" image="wGoToPhone" contentMode="center" id="ZxF-rg-ssz"/>
+                                <label width="1" alignment="center" verticalAlignment="bottom" text="Start Fit Fuze on your iPhone and choose the training plan" textAlignment="center" numberOfLines="0" minimumScaleFactor="0.70000000000000007" id="w5N-hI-ew1">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Reload" id="cmb-Sr-Ysx">
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                            <connections>
+                                <action selector="reloadData" destination="F2I-gj-zXI" id="F3Q-05-gio"/>
+                            </connections>
+                        </button>
+                        <group width="1" height="165" alignment="left" layout="vertical" id="AfA-jZ-rXA" userLabel="Connecting...group">
+                            <items>
+                                <imageView width="50" height="32" alignment="center" verticalAlignment="center" image="wLogo" animationDuration="2" id="tHP-32-Ci8"/>
+                                <label alignment="center" verticalAlignment="center" text="Loading..." textAlignment="center" numberOfLines="0" id="f76-Na-KiO"/>
+                            </items>
+                        </group>
+                    </items>
+                    <menu key="menu" id="5DX-a8-9mn">
+                        <items>
+                            <menuItem title="Settings" image="Settings" id="Ovl-cU-V4s">
+                                <connections>
+                                    <action selector="goToSettings:" destination="F2I-gj-zXI" id="za1-aT-Vy9"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="goToIconLabel" destination="w5N-hI-ew1" id="tcE-2b-Apy"/>
+                        <outlet property="goToPhone" destination="cqu-w1-xNM" id="OGo-he-WjZ"/>
+                        <outlet property="loadingGroup" destination="AfA-jZ-rXA" id="ELU-I8-v30"/>
+                        <outlet property="loadingLabel" destination="f76-Na-KiO" id="r90-Hi-VWC"/>
+                        <outlet property="moreWorkoutsTable" destination="WsZ-li-Oou" id="8fs-52-gc4"/>
+                        <outlet property="retryButton" destination="cmb-Sr-Ysx" id="whm-PM-EFj"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="39" y="503.5"/>
+        </scene>
+        <!--settingsSceneID-->
+        <scene sceneID="Pad-xe-gGh">
+            <objects>
+                <controller identifier="settingsSceneID" id="Pdc-dF-2oU" customClass="SettingsInterfaceController">
+                    <items>
+                        <group width="1" alignment="left" id="aO5-0e-mFZ">
+                            <items>
+                                <label alignment="left" text="Rst_tim_Lbl" minimumScaleFactor="0.70000000000000007" id="SSq-gx-h6V"/>
+                                <label alignment="right" text="s_Lbl" textAlignment="right" minimumScaleFactor="0.70000000000000007" id="GvP-b0-Ubt"/>
+                            </items>
+                        </group>
+                        <slider width="1" alignment="left" value="60" maximum="120" steps="8" id="kfi-hv-MLt">
+                            <connections>
+                                <action selector="volumeSliderAction:" destination="Pdc-dF-2oU" id="LzN-hD-auv"/>
+                            </connections>
+                        </slider>
+                        <picker height="2" alignment="left" id="CTx-iz-m6F">
+                            <connections>
+                                <action selector="pickerValueChanged:" destination="Pdc-dF-2oU" id="usf-el-siy"/>
+                            </connections>
+                        </picker>
+                    </items>
+                    <connections>
+                        <outlet property="restTimeLabel" destination="GvP-b0-Ubt" id="7dY-RI-h5o"/>
+                        <outlet property="restTimeNameLabel" destination="SSq-gx-h6V" id="LKt-4A-iFV"/>
+                        <outlet property="restTimePicker" destination="CTx-iz-m6F" id="G6Y-LK-LhE"/>
+                        <outlet property="restTimeSlider" destination="kfi-hv-MLt" id="5Bz-bB-qUq"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="39" y="90"/>
+        </scene>
+        <!--requestHealthDataSceneID-->
+        <scene sceneID="1P1-mE-Wnv">
+            <objects>
+                <controller identifier="requestHealthDataSceneID" id="git-Bv-OrN" customClass="RequestHealthDataController">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="T3R-aw-9Vq">
+                            <items>
+                                <label width="1" alignment="left" text="Label" textAlignment="center" numberOfLines="0" id="Ucu-6Z-vdM"/>
+                                <button alignment="left" id="4uW-gK-HgJ">
+                                    <group key="contentGroup" width="1" alignment="left" id="v4s-A7-Sa9">
+                                        <items>
+                                            <imageView height="85" alignment="center" verticalAlignment="center" image="WorkoutFinished" contentMode="scaleAspectFit" id="OBT-GX-TPs"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <action selector="okAction" destination="git-Bv-OrN" id="clV-uK-rtZ"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="requestHealthDataLabel" destination="Ucu-6Z-vdM" id="uaY-MX-m60"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="265" y="86"/>
+        </scene>
+        <!--exerciseListSceneID-->
+        <scene sceneID="rvZ-xx-LBn">
+            <objects>
+                <controller identifier="exerciseListSceneID" id="Kjd-9J-Q4K" customClass="ExerciseListInterfaceController">
+                    <items>
+                        <table alignment="left" id="UFJ-PM-58y">
+                            <items>
+                                <tableRow identifier="exerciseSelectorRowType" id="2h5-xq-NNh" customClass="ExerciseSelectorRowType">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" spacing="2" id="mUx-4m-9qY">
+                                        <items>
+                                            <group width="1" height="2" alignment="left" id="xCE-SH-0js"/>
+                                            <group width="1" alignment="left" id="oVu-K9-Nt8">
+                                                <items>
+                                                    <imageView width="4" height="33" alignment="left" verticalAlignment="center" image="ToDo" id="fDN-r7-Rmd"/>
+                                                    <group width="127" alignment="right" verticalAlignment="center" layout="vertical" id="vKe-Cr-wlH">
+                                                        <items>
+                                                            <label width="127" alignment="right" verticalAlignment="center" text="Exercise_Name_Lbl" textAlignment="left" numberOfLines="0" minimumScaleFactor="0.70000000000000007" id="XXX-If-ymv">
+                                                                <fontDescription key="font" type="system" pointSize="15"/>
+                                                                <variation key="device=watch38mm" width="110"/>
+                                                                <variation key="device=watch42mm" width="127"/>
+                                                            </label>
+                                                        </items>
+                                                        <variation key="device=watch38mm" width="110"/>
+                                                        <variation key="device=watch42mm" width="127"/>
+                                                    </group>
+                                                </items>
+                                            </group>
+                                            <group width="1" height="2" alignment="left" id="cPs-rO-XvG"/>
+                                        </items>
+                                        <color key="backgroundColor" red="0.062578104436397552" green="0.11166085302829742" blue="0.13820269703865051" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="exerciseGroup" destination="mUx-4m-9qY" id="FYb-uA-U6n"/>
+                                        <outlet property="exerciseImage" destination="fDN-r7-Rmd" id="d7x-Nk-phm"/>
+                                        <outlet property="exerciseLabel" destination="XXX-If-ymv" id="wvj-eF-m5a"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <menu key="menu" id="C9e-bH-Glj">
+                        <items>
+                            <menuItem title="Settings" image="Settings" id="dWt-7l-nfV">
+                                <connections>
+                                    <action selector="goToSettings:" destination="Kjd-9J-Q4K" id="nk2-oo-Ovz"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="exercisesListTable" destination="UFJ-PM-58y" id="w7k-pr-l7n"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="260" y="367"/>
+        </scene>
+        <!--exerciseSceneID-->
+        <scene sceneID="0Br-kT-6lQ">
+            <objects>
+                <controller identifier="exerciseSceneID" id="hOd-0T-NpF" customClass="ExerciseInterfaceController">
+                    <items>
+                        <table alignment="left" id="9LL-cY-ePx" userLabel="ExercisesTable">
+                            <items>
+                                <tableRow identifier="statisticsRowType" selectable="NO" id="Slz-0E-b2t" customClass="StatusRowType">
+                                    <group key="rootItem" width="1" height="16" alignment="left" radius="0.0" id="isD-qy-Pic">
+                                        <items>
+                                            <group width="45" alignment="left" verticalAlignment="center" id="xq1-p6-aOf">
+                                                <items>
+                                                    <imageView width="15" height="13" alignment="left" verticalAlignment="center" image="heart_red_full" animationDuration="2" id="GLK-JQ-64y">
+                                                        <variation key="device=watch38mm" width="15"/>
+                                                    </imageView>
+                                                    <label alignment="left" text=" 124" textAlignment="left" minimumScaleFactor="0.80000000000000004" id="qnU-qD-rcW">
+                                                        <color key="textColor" red="0.98601663112640381" green="0.0" blue="0.027061587199568748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                            <group width="45" alignment="center" verticalAlignment="center" radius="0.0" id="Tkz-dY-2LJ">
+                                                <items>
+                                                    <timer alignment="center" verticalAlignment="center" hidden="YES" textAlignment="center" minimumScaleFactor="0.50000000000000011" enabled="YES" previewedSeconds="0" id="3u2-7A-rnA">
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="font" type="system" weight="medium" pointSize="16"/>
+                                                        <calendarUnit key="units" minute="YES" second="YES"/>
+                                                    </timer>
+                                                </items>
+                                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <variation key="device=watch38mm" width="40"/>
+                                            </group>
+                                            <label width="45" alignment="right" verticalAlignment="center" text="8/10" textAlignment="right" minimumScaleFactor="0.69999999999999996" id="RHD-WC-7HF">
+                                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="heartRateLabel" destination="qnU-qD-rcW" id="d0g-Kz-wc1"/>
+                                        <outlet property="heart_rate_icon" destination="GLK-JQ-64y" id="1Zw-A8-Ym4"/>
+                                        <outlet property="setTimer" destination="3u2-7A-rnA" id="IBK-0b-HLw"/>
+                                        <outlet property="setXofYLabel" destination="RHD-WC-7HF" id="KtX-tK-Hzv"/>
+                                        <outlet property="statisticGroup" destination="isD-qy-Pic" id="lTu-fr-NAC"/>
+                                        <outlet property="timerGroup" destination="Tkz-dY-2LJ" id="nk4-Rt-yZB"/>
+                                    </connections>
+                                </tableRow>
+                                <tableRow identifier="exerciseExecutionRowType" id="R3C-tU-X5g" customClass="ExerciseExecutionRowType">
+                                    <group key="rootItem" width="1" alignment="left" id="hgf-Bq-wkt">
+                                        <items>
+                                            <separator alignment="right" id="Fdc-BO-9DZ">
+                                                <color key="color" red="0.97600336765357321" green="0.97170688557720819" blue="1" alpha="0.15458720439189189" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </separator>
+                                            <group width="33" alignment="right" layout="vertical" id="wvh-zM-3cI">
+                                                <items>
+                                                    <label height="0.40000000000000002" alignment="center" text="Reps" textAlignment="right" minimumScaleFactor="0.69999999999999996" id="UKo-Sa-byu">
+                                                        <color key="textColor" red="0.43048897385597229" green="0.67847555875778198" blue="0.9988289475440979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="14"/>
+                                                    </label>
+                                                    <label height="0.5" alignment="center" text="Wgh" textAlignment="right" minimumScaleFactor="0.69999999999999996" id="JXV-Y5-Hsb">
+                                                        <color key="textColor" red="0.88528329133987427" green="0.6626589298248291" blue="0.43932831287384033" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="font" type="system" pointSize="14"/>
+                                                    </label>
+                                                </items>
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                            </group>
+                                            <label alignment="left" verticalAlignment="center" text="Triceps pushdowns (rope attachment)" textAlignment="left" numberOfLines="2" minimumScaleFactor="0.59999999999999998" id="9RL-hP-VTV">
+                                                <fontDescription key="font" type="system" pointSize="16"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" red="0.28812956809997559" green="0.65894556045532227" blue="0.84367883205413818" alpha="0.15770164695945946" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <edgeInsets key="margins" left="3" right="3" top="0.0" bottom="0.0"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="exerciseDescriptionGroup" destination="hgf-Bq-wkt" id="xQI-WU-DEY"/>
+                                        <outlet property="exerciseNameLabel" destination="9RL-hP-VTV" id="FgH-Qb-rVq"/>
+                                        <outlet property="exerciseRepsLabel" destination="UKo-Sa-byu" id="NOn-Vp-qdl"/>
+                                        <outlet property="exerciseWeightLabel" destination="JXV-Y5-Hsb" id="6MU-zg-RTN"/>
+                                    </connections>
+                                </tableRow>
+                                <tableRow identifier="exerciseExecutionExtendedRowType" id="GhB-N0-Pkk" customClass="ExerciseExecutionRowType">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="mRR-ly-rxK">
+                                        <items>
+                                            <group width="1" alignment="left" id="YhU-nR-hhd">
+                                                <items>
+                                                    <label alignment="right" verticalAlignment="bottom" alpha="0.20000000000000001" text="❯" id="jle-OB-OSs"/>
+                                                    <label width="1" widthAdjustment="-7" alignment="left" textAlignment="center" numberOfLines="3" minimumScaleFactor="0.59999999999999998" id="6ia-XM-yHR">
+                                                        <string key="text">Label
+Labelg</string>
+                                                        <fontDescription key="font" type="system" weight="medium" pointSize="18"/>
+                                                        <variation key="device=watch38mm">
+                                                            <fontDescription key="font" type="system" weight="medium" pointSize="16"/>
+                                                        </variation>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                            <group width="1" height="25" alignment="left" verticalAlignment="bottom" id="cGW-PX-6mY">
+                                                <items>
+                                                    <label alignment="center" text="Reps" textAlignment="right" minimumScaleFactor="0.69999999999999996" id="3jD-Rg-V94">
+                                                        <color key="textColor" red="0.43048897385597229" green="0.67847555875778198" blue="0.9988289475440979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="font" type="system" weight="medium" pointSize="22"/>
+                                                        <variation key="device=watch38mm">
+                                                            <fontDescription key="font" type="system" weight="medium" pointSize="20"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label alignment="center" text="Wgh" textAlignment="right" minimumScaleFactor="0.69999999999999996" id="hNU-f4-neX">
+                                                        <color key="textColor" red="0.88528329133987427" green="0.6626589298248291" blue="0.43932831287384033" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="font" type="system" weight="medium" pointSize="22"/>
+                                                        <variation key="device=watch38mm">
+                                                            <fontDescription key="font" type="system" weight="medium" pointSize="20"/>
+                                                        </variation>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                        </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="exerciseDescriptionGroup" destination="mRR-ly-rxK" id="KYM-7W-I70"/>
+                                        <outlet property="exerciseNameLabel" destination="6ia-XM-yHR" id="wMa-86-xne"/>
+                                        <outlet property="exerciseRepsLabel" destination="3jD-Rg-V94" id="REc-9B-had"/>
+                                        <outlet property="exerciseWeightLabel" destination="hNU-f4-neX" id="XMe-Ya-kfb"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        </table>
+                        <group width="1" alignment="center" verticalAlignment="bottom" layout="vertical" id="xYN-Ez-F4I" userLabel="Set Buttons Group">
+                            <items>
+                                <group width="1" alignment="left" layout="vertical" id="1ag-SV-G7S" userLabel="NotDoneSetGroup">
+                                    <items>
+                                        <button width="1" height="34" alignment="center" title="Start set (2 of 6)" id="lBh-Ja-d58">
+                                            <color key="backgroundColor" red="0.088686585426330566" green="0.67670851945877075" blue="0.18203771114349365" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                            <connections>
+                                                <action selector="startSetAction" destination="hOd-0T-NpF" id="3HH-bR-UZH"/>
+                                            </connections>
+                                        </button>
+                                        <button width="1" height="18" alignment="center" verticalAlignment="bottom" title="Skip_titile" id="VdX-Gd-l6D">
+                                            <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                            <variation key="device=watch38mm" height="18"/>
+                                            <connections>
+                                                <action selector="skipButtonPressed" destination="hOd-0T-NpF" id="RQJ-uU-hl8"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group width="1" alignment="left" hidden="YES" layout="vertical" id="YRA-kG-l5i" userLabel="AlreadyDoneSetGroup">
+                                    <items>
+                                        <label alignment="center" text="AlreadyDoneLabel" textAlignment="center" numberOfLines="0" id="n20-0e-Rce">
+                                            <color key="textColor" red="0.0" green="0.81802398990000003" blue="0.44908008970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                        </label>
+                                        <button width="1" alignment="left" verticalAlignment="bottom" title="OK" id="Iwp-Nh-8WN">
+                                            <connections>
+                                                <action selector="gotoNextExerciseOnject" destination="hOd-0T-NpF" id="tgG-nn-Oc6"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                        <group width="1" alignment="center" verticalAlignment="bottom" hidden="YES" id="rRM-ur-TuR">
+                            <items>
+                                <button width="1" height="34" alignment="left" verticalAlignment="bottom" title="Button" id="iY7-l5-VWx">
+                                    <color key="backgroundColor" red="0.019607843140000001" green="0.71764705880000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="finishSetAction" destination="hOd-0T-NpF" id="A5U-5c-c5n"/>
+                                    </connections>
+                                </button>
+                                <button alignment="right" verticalAlignment="center" id="PYq-SE-TJb">
+                                    <group key="contentGroup" width="30" alignment="left" id="rVZ-hl-xPb">
+                                        <items>
+                                            <imageView alignment="center" verticalAlignment="center" image="wFailure" id="YH1-XR-xvv"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <action selector="editSet" destination="hOd-0T-NpF" id="VsQ-pd-iPM"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <menu key="menu" id="zK7-hS-gMo">
+                        <items>
+                            <menuItem title="Settings" image="Settings" id="Y2T-NR-fOB">
+                                <connections>
+                                    <action selector="goToSettings:" destination="hOd-0T-NpF" id="RoI-tQ-C3x"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="alreadyDoneLabel" destination="n20-0e-Rce" id="kTf-L7-BP0"/>
+                        <outlet property="alreadyDoneSetGroup" destination="YRA-kG-l5i" id="by8-iW-Jy7"/>
+                        <outlet property="currentSetExecutionGroup" destination="rRM-ur-TuR" id="zak-Rl-cn8"/>
+                        <outlet property="editSetButton" destination="PYq-SE-TJb" id="OaZ-qI-CCf"/>
+                        <outlet property="exerciseDescriptionsTable" destination="9LL-cY-ePx" id="nvH-4L-yGk"/>
+                        <outlet property="exerciseNameFailLabel" destination="7RX-bV-Z2q" id="38x-a2-ZJ4"/>
+                        <outlet property="finishButton" destination="iY7-l5-VWx" id="Dnu-FC-4HG"/>
+                        <outlet property="notDoneSetGroup" destination="1ag-SV-G7S" id="Yfc-yj-aOI"/>
+                        <outlet property="repsDonePicker" destination="5kk-Rg-MNO" id="Sr4-f4-2QT"/>
+                        <outlet property="saveFailedDataButton" destination="2c8-KV-W14" id="ap4-Yd-K7L"/>
+                        <outlet property="setFailedButtonsGroup" destination="Y7x-j4-kcA" id="ZjV-Gb-brl"/>
+                        <outlet property="setInProgressButtonsGroup" destination="xYN-Ez-F4I" id="G8I-G7-7ug"/>
+                        <outlet property="skipButton" destination="VdX-Gd-l6D" id="a1T-H4-lPU"/>
+                        <outlet property="startSetButton" destination="lBh-Ja-d58" id="Kw5-fK-ngE"/>
+                        <outlet property="weightDonePicker" destination="ia9-HY-mJv" id="Xxd-NT-dn4"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="481" y="204"/>
+        </scene>
+        <!--editSetSceneID-->
+        <scene sceneID="cML-Mi-ola">
+            <objects>
+                <controller identifier="editSetSceneID" id="Tro-XY-6De" customClass="EditSetInterfaceController">
+                    <items>
+                        <group width="1" alignment="left" verticalAlignment="bottom" layout="vertical" id="Y7x-j4-kcA" userLabel="Failure Group">
+                            <items>
+                                <group width="1" alignment="left" layout="vertical" id="8BR-pa-H4e">
+                                    <items>
+                                        <group width="1" height="36" alignment="center" id="gGv-Cw-GjF">
+                                            <items>
+                                                <label width="1" alignment="center" text="Label" textAlignment="center" numberOfLines="2" id="7RX-bV-Z2q">
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="font" type="system" pointSize="15"/>
+                                                </label>
+                                            </items>
+                                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="5"/>
+                                        </group>
+                                        <group width="1" height="1" alignment="left" id="dVk-QK-l66">
+                                            <items>
+                                                <picker width="0.5" height="50" alignment="left" focusStyle="sequence" indicatorMode="shownWhileFocused" id="5kk-Rg-MNO">
+                                                    <connections>
+                                                        <action selector="repsPickerChanged:" destination="hOd-0T-NpF" id="zHo-IV-XMv"/>
+                                                    </connections>
+                                                </picker>
+                                                <picker width="0.5" height="50" alignment="right" focusStyle="sequence" indicatorMode="shownWhileFocused" id="ia9-HY-mJv">
+                                                    <connections>
+                                                        <action selector="weightPickerDone:" destination="hOd-0T-NpF" id="Nvt-kA-wQW"/>
+                                                    </connections>
+                                                </picker>
+                                            </items>
+                                        </group>
+                                    </items>
+                                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                </group>
+                                <group width="1" alignment="left" layout="vertical" id="abB-f0-1ao">
+                                    <items>
+                                        <button width="1" alignment="left" title="OK_Lbl" id="2c8-KV-W14">
+                                            <connections>
+                                                <action selector="failureRecorded" destination="hOd-0T-NpF" id="FJH-fH-JOi"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="791" y="22"/>
+        </scene>
+        <!--howToSceneID-->
+        <scene sceneID="A5q-4n-sLJ">
+            <objects>
+                <controller identifier="howToSceneID" id="hlp-X2-28W" customClass="HowToInterfaceController">
+                    <items>
+                        <imageView width="135" height="135" alignment="center" verticalAlignment="center" image="9-5.jpeg" animationDuration="3" id="7qC-iW-jsd"/>
+                        <label width="1" alignment="center" verticalAlignment="bottom" text="Exercise_name_Lbl" textAlignment="center" numberOfLines="0" minimumScaleFactor="0.5" id="n5Z-8O-WGx">
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                        </label>
+                    </items>
+                    <menu key="menu" id="ATb-5X-mlv">
+                        <items>
+                            <menuItem title="Settings" image="Settings" id="syn-1G-EcF">
+                                <connections>
+                                    <action selector="goToSettings:" destination="hlp-X2-28W" id="7Jk-Wr-L7W"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Stop workout" icon="decline" id="kpg-te-7gw"/>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="exerciseNameLabel" destination="n5Z-8O-WGx" id="6gk-RC-Ssy"/>
+                        <outlet property="exerciseWImage" destination="7qC-iW-jsd" id="391-gV-IJm"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="805" y="375.25"/>
+        </scene>
+        <!--ConnectionNotificationHint-->
+        <scene sceneID="j9Y-k3-xZo">
+            <objects>
+                <controller identifier="ConnectionNotificationHint" id="5Pk-2M-HYg" customClass="ConnectionNotificationController">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="4Cz-0z-TM6" userLabel="Start FitFuze on iPhone group">
+                            <items>
+                                <imageView alignment="center" verticalAlignment="center" image="wGoToPhone" contentMode="center" id="gch-ws-cdP"/>
+                                <label width="1" alignment="center" verticalAlignment="bottom" textAlignment="center" numberOfLines="0" minimumScaleFactor="0.70000000000000007" id="nxW-qs-qOc">
+                                    <string key="text">
+Start Fit Fuze on your iPhone to sync data</string>
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="goToPhoneLabel" destination="nxW-qs-qOc" id="pwr-9g-8cs"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="262" y="770"/>
+        </scene>
+        <!--workoutFinishedSceneID-->
+        <scene sceneID="uU9-G8-8nm">
+            <objects>
+                <controller identifier="workoutFinishedSceneID" id="QWt-HA-rux" customClass="WorkoutFinishedInterfaceController">
+                    <items>
+                        <button alignment="center" verticalAlignment="center" id="pDt-Af-rQW">
+                            <group key="contentGroup" width="1" alignment="left" layout="vertical" id="UGs-1D-BNp">
+                                <items>
+                                    <imageView alignment="center" verticalAlignment="center" image="WorkoutFinished" id="EZW-Jc-XbE"/>
+                                    <label width="1" alignment="center" verticalAlignment="center" text="W_fnished_Lbl" textAlignment="center" numberOfLines="0" id="zgl-E1-acx"/>
+                                </items>
+                            </group>
+                            <connections>
+                                <action selector="finishWorkout" destination="QWt-HA-rux" id="Xnt-Wb-0qu"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="workoutFinishedLabel" destination="zgl-E1-acx" id="929-Xa-NAX"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="482" y="640"/>
+        </scene>
+        <!--noSetsFilledID-->
+        <scene sceneID="Vwp-Ku-Uao">
+            <objects>
+                <controller identifier="noSetsFilledID" id="g7F-Sx-Mvx" customClass="NoSetsWarningInterfaceController">
+                    <items>
+                        <label width="124" alignment="center" verticalAlignment="center" text="No sets filled for this exercise. Please create at least one set on your iPhone and reload training info. " textAlignment="center" numberOfLines="0" id="G65-Km-PsS"/>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Reload" id="D6I-an-IBA">
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                            <connections>
+                                <action selector="reloadTrainingPlan" destination="g7F-Sx-Mvx" id="bXP-GL-1y7"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="NoSetsWarningLabel" destination="G65-Km-PsS" id="FQL-Qg-TTG"/>
+                        <outlet property="ReloadButton" destination="D6I-an-IBA" id="Ha1-7p-oZb"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="782" y="674.25"/>
+        </scene>
+        <!--workoutIsInProgressID-->
+        <scene sceneID="pWj-6e-Rmw">
+            <objects>
+                <controller identifier="workoutIsInProgressID" id="bZT-2D-Pff" customClass="AlreadyStartedNotificationInterfaceController">
+                    <items>
+                        <label width="124" alignment="center" verticalAlignment="center" text="Do you want to continue the already started workout?" textAlignment="center" numberOfLines="0" id="qd1-cS-PgB"/>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Continue" id="5MY-bi-L8V">
+                            <color key="titleColor" red="0.0" green="0.81802398990000003" blue="0.44908008970000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                            <connections>
+                                <action selector="continueButtonTapped" destination="bZT-2D-Pff" id="af0-LK-CNK"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Restart" id="qJD-ld-fRH">
+                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                            <connections>
+                                <action selector="restartButtonTapped" destination="bZT-2D-Pff" id="19w-Xy-nxz"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="continueButton" destination="5MY-bi-L8V" id="MGC-fi-HeI"/>
+                        <outlet property="explanationLabel" destination="qd1-cS-PgB" id="eDX-4q-EcW"/>
+                        <outlet property="restartButton" destination="qJD-ld-fRH" id="HMS-fB-D1l"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="765" y="978.25"/>
+        </scene>
+    </scenes>
+</document>

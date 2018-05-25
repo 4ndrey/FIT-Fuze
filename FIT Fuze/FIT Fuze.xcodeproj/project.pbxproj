@@ -1,0 +1,994 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		767ADC0E20B8A29E00877BD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767ADC0D20B8A29E00877BD5 /* AppDelegate.swift */; };
+		767ADC1020B8A29E00877BD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767ADC0F20B8A29E00877BD5 /* ViewController.swift */; };
+		767ADC1320B8A29E00877BD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767ADC1120B8A29E00877BD5 /* Main.storyboard */; };
+		767ADC1520B8A29E00877BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767ADC1420B8A29E00877BD5 /* Assets.xcassets */; };
+		767ADC1820B8A29E00877BD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767ADC1620B8A29E00877BD5 /* LaunchScreen.storyboard */; };
+		767ADC2320B8A29F00877BD5 /* FIT_FuzeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767ADC2220B8A29F00877BD5 /* FIT_FuzeTests.swift */; };
+		767ADC2E20B8A29F00877BD5 /* FIT_FuzeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767ADC2D20B8A29F00877BD5 /* FIT_FuzeUITests.swift */; };
+		767ADC3320B8A29F00877BD5 /* FIT Fuze WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 767ADC3220B8A29F00877BD5 /* FIT Fuze WatchKit App.app */; };
+		767ADC3920B8A29F00877BD5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767ADC3720B8A29F00877BD5 /* Interface.storyboard */; };
+		767ADC3B20B8A29F00877BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767ADC3A20B8A29F00877BD5 /* Assets.xcassets */; };
+		767ADC4220B8A29F00877BD5 /* FIT Fuze WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 767ADC4120B8A29F00877BD5 /* FIT Fuze WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		767ADC4720B8A29F00877BD5 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767ADC4620B8A29F00877BD5 /* InterfaceController.swift */; };
+		767ADC4920B8A29F00877BD5 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767ADC4820B8A29F00877BD5 /* ExtensionDelegate.swift */; };
+		767ADC4B20B8A29F00877BD5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767ADC4A20B8A29F00877BD5 /* NotificationController.swift */; };
+		767ADC4D20B8A29F00877BD5 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767ADC4C20B8A29F00877BD5 /* ComplicationController.swift */; };
+		767ADC4F20B8A2A000877BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767ADC4E20B8A2A000877BD5 /* Assets.xcassets */; };
+		767ADD2020B8A2EE00877BD5 /* SimpleImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767ADD1C20B8A2ED00877BD5 /* SimpleImageCollectionViewCell.swift */; };
+		767ADD2120B8A2EE00877BD5 /* DetailedWorkoutCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767ADD1D20B8A2ED00877BD5 /* DetailedWorkoutCollectionViewCell.swift */; };
+		767ADD2220B8A2EE00877BD5 /* CurrentPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767ADD1E20B8A2EE00877BD5 /* CurrentPlanViewController.swift */; };
+		767ADD2320B8A2EE00877BD5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767ADD1F20B8A2EE00877BD5 /* MenuViewController.swift */; };
+		767ADD2620B8A3CA00877BD5 /* PrimaryMuscleGroups.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767ADD2420B8A3C900877BD5 /* PrimaryMuscleGroups.xcassets */; };
+		767ADD2720B8A3CA00877BD5 /* SecondaryMusleGroups.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767ADD2520B8A3CA00877BD5 /* SecondaryMusleGroups.xcassets */; };
+		767ADD2A20B8A47A00877BD5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 767ADD2920B8A47A00877BD5 /* Localizable.strings */; };
+		AF2B786B101D210A3F6DFE66 /* libPods-FIT Fuze.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EEE69932F1AF2FD86811 /* libPods-FIT Fuze.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		767ADC1F20B8A29F00877BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 767ADC0220B8A29E00877BD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 767ADC0920B8A29E00877BD5;
+			remoteInfo = "FIT Fuze";
+		};
+		767ADC2A20B8A29F00877BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 767ADC0220B8A29E00877BD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 767ADC0920B8A29E00877BD5;
+			remoteInfo = "FIT Fuze";
+		};
+		767ADC3420B8A29F00877BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 767ADC0220B8A29E00877BD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 767ADC3120B8A29F00877BD5;
+			remoteInfo = "FIT Fuze WatchKit App";
+		};
+		767ADC4320B8A29F00877BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 767ADC0220B8A29E00877BD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 767ADC4020B8A29F00877BD5;
+			remoteInfo = "FIT Fuze WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		767ADC5720B8A2A000877BD5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				767ADC4220B8A29F00877BD5 /* FIT Fuze WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767ADC5B20B8A2A000877BD5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				767ADC3320B8A29F00877BD5 /* FIT Fuze WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		191118EFBEE3CA1F76627CFE /* Pods-FIT Fuze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT Fuze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIT Fuze/Pods-FIT Fuze.debug.xcconfig"; sourceTree = "<group>"; };
+		5F3488DA8B25CDE3A14F59C6 /* Pods-FIT Fuze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT Fuze.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIT Fuze/Pods-FIT Fuze.release.xcconfig"; sourceTree = "<group>"; };
+		767ADC0A20B8A29E00877BD5 /* FIT Fuze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FIT Fuze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		767ADC0D20B8A29E00877BD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		767ADC0F20B8A29E00877BD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		767ADC1220B8A29E00877BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		767ADC1420B8A29E00877BD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		767ADC1720B8A29E00877BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		767ADC1920B8A29F00877BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767ADC1E20B8A29F00877BD5 /* FIT FuzeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FIT FuzeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		767ADC2220B8A29F00877BD5 /* FIT_FuzeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIT_FuzeTests.swift; sourceTree = "<group>"; };
+		767ADC2420B8A29F00877BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767ADC2920B8A29F00877BD5 /* FIT FuzeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FIT FuzeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		767ADC2D20B8A29F00877BD5 /* FIT_FuzeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIT_FuzeUITests.swift; sourceTree = "<group>"; };
+		767ADC2F20B8A29F00877BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767ADC3220B8A29F00877BD5 /* FIT Fuze WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FIT Fuze WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		767ADC3820B8A29F00877BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		767ADC3A20B8A29F00877BD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		767ADC3C20B8A29F00877BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767ADC4120B8A29F00877BD5 /* FIT Fuze WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FIT Fuze WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		767ADC4620B8A29F00877BD5 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		767ADC4820B8A29F00877BD5 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		767ADC4A20B8A29F00877BD5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		767ADC4C20B8A29F00877BD5 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		767ADC4E20B8A2A000877BD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		767ADC5020B8A2A000877BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767ADC5120B8A2A000877BD5 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		767ADD1C20B8A2ED00877BD5 /* SimpleImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		767ADD1D20B8A2ED00877BD5 /* DetailedWorkoutCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedWorkoutCollectionViewCell.swift; sourceTree = "<group>"; };
+		767ADD1E20B8A2EE00877BD5 /* CurrentPlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentPlanViewController.swift; sourceTree = "<group>"; };
+		767ADD1F20B8A2EE00877BD5 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		767ADD2420B8A3C900877BD5 /* PrimaryMuscleGroups.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PrimaryMuscleGroups.xcassets; sourceTree = "<group>"; };
+		767ADD2520B8A3CA00877BD5 /* SecondaryMusleGroups.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SecondaryMusleGroups.xcassets; sourceTree = "<group>"; };
+		767ADD2920B8A47A00877BD5 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		9D56EEE69932F1AF2FD86811 /* libPods-FIT Fuze.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FIT Fuze.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		767ADC0720B8A29E00877BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2B786B101D210A3F6DFE66 /* libPods-FIT Fuze.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767ADC1B20B8A29F00877BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767ADC2620B8A29F00877BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767ADC3E20B8A29F00877BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA798E5F56A0D9B807FC9DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AF765BA54BDB643DEDC7B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D56EEE69932F1AF2FD86811 /* libPods-FIT Fuze.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26FC3C2F08EA44364EE6CEE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				191118EFBEE3CA1F76627CFE /* Pods-FIT Fuze.debug.xcconfig */,
+				5F3488DA8B25CDE3A14F59C6 /* Pods-FIT Fuze.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		767ADC0120B8A29E00877BD5 = {
+			isa = PBXGroup;
+			children = (
+				767ADC0C20B8A29E00877BD5 /* FIT Fuze */,
+				767ADC2120B8A29F00877BD5 /* FIT FuzeTests */,
+				767ADC2C20B8A29F00877BD5 /* FIT FuzeUITests */,
+				767ADC3620B8A29F00877BD5 /* FIT Fuze WatchKit App */,
+				767ADC4520B8A29F00877BD5 /* FIT Fuze WatchKit Extension */,
+				767ADC0B20B8A29E00877BD5 /* Products */,
+				26FC3C2F08EA44364EE6CEE3 /* Pods */,
+				18AF765BA54BDB643DEDC7B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		767ADC0B20B8A29E00877BD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				767ADC0A20B8A29E00877BD5 /* FIT Fuze.app */,
+				767ADC1E20B8A29F00877BD5 /* FIT FuzeTests.xctest */,
+				767ADC2920B8A29F00877BD5 /* FIT FuzeUITests.xctest */,
+				767ADC3220B8A29F00877BD5 /* FIT Fuze WatchKit App.app */,
+				767ADC4120B8A29F00877BD5 /* FIT Fuze WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		767ADC0C20B8A29E00877BD5 /* FIT Fuze */ = {
+			isa = PBXGroup;
+			children = (
+				767ADD2C20B8A85F00877BD5 /* Storyboards */,
+				767ADD2B20B8A85300877BD5 /* Model */,
+				767ADD2820B8A3CC00877BD5 /* Assets */,
+				767ADD1B20B8A2DE00877BD5 /* Screens */,
+				767ADC0D20B8A29E00877BD5 /* AppDelegate.swift */,
+				767ADC0F20B8A29E00877BD5 /* ViewController.swift */,
+				767ADD2920B8A47A00877BD5 /* Localizable.strings */,
+				767ADC1920B8A29F00877BD5 /* Info.plist */,
+			);
+			path = "FIT Fuze";
+			sourceTree = "<group>";
+		};
+		767ADC2120B8A29F00877BD5 /* FIT FuzeTests */ = {
+			isa = PBXGroup;
+			children = (
+				767ADC2220B8A29F00877BD5 /* FIT_FuzeTests.swift */,
+				767ADC2420B8A29F00877BD5 /* Info.plist */,
+			);
+			path = "FIT FuzeTests";
+			sourceTree = "<group>";
+		};
+		767ADC2C20B8A29F00877BD5 /* FIT FuzeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				767ADC2D20B8A29F00877BD5 /* FIT_FuzeUITests.swift */,
+				767ADC2F20B8A29F00877BD5 /* Info.plist */,
+			);
+			path = "FIT FuzeUITests";
+			sourceTree = "<group>";
+		};
+		767ADC3620B8A29F00877BD5 /* FIT Fuze WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				767ADC3720B8A29F00877BD5 /* Interface.storyboard */,
+				767ADC3A20B8A29F00877BD5 /* Assets.xcassets */,
+				767ADC3C20B8A29F00877BD5 /* Info.plist */,
+			);
+			path = "FIT Fuze WatchKit App";
+			sourceTree = "<group>";
+		};
+		767ADC4520B8A29F00877BD5 /* FIT Fuze WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				767ADC4620B8A29F00877BD5 /* InterfaceController.swift */,
+				767ADC4820B8A29F00877BD5 /* ExtensionDelegate.swift */,
+				767ADC4A20B8A29F00877BD5 /* NotificationController.swift */,
+				767ADC4C20B8A29F00877BD5 /* ComplicationController.swift */,
+				767ADC4E20B8A2A000877BD5 /* Assets.xcassets */,
+				767ADC5020B8A2A000877BD5 /* Info.plist */,
+				767ADC5120B8A2A000877BD5 /* PushNotificationPayload.apns */,
+			);
+			path = "FIT Fuze WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		767ADD1B20B8A2DE00877BD5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				767ADD1E20B8A2EE00877BD5 /* CurrentPlanViewController.swift */,
+				767ADD1D20B8A2ED00877BD5 /* DetailedWorkoutCollectionViewCell.swift */,
+				767ADD1F20B8A2EE00877BD5 /* MenuViewController.swift */,
+				767ADD1C20B8A2ED00877BD5 /* SimpleImageCollectionViewCell.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		767ADD2820B8A3CC00877BD5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				767ADC1420B8A29E00877BD5 /* Assets.xcassets */,
+				767ADD2420B8A3C900877BD5 /* PrimaryMuscleGroups.xcassets */,
+				767ADD2520B8A3CA00877BD5 /* SecondaryMusleGroups.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		767ADD2B20B8A85300877BD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		767ADD2C20B8A85F00877BD5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				767ADC1120B8A29E00877BD5 /* Main.storyboard */,
+				767ADC1620B8A29E00877BD5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		767ADC0920B8A29E00877BD5 /* FIT Fuze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767ADC5C20B8A2A000877BD5 /* Build configuration list for PBXNativeTarget "FIT Fuze" */;
+			buildPhases = (
+				EC1704E834FD6727086A7E11 /* [CP] Check Pods Manifest.lock */,
+				767ADC0620B8A29E00877BD5 /* Sources */,
+				767ADC0720B8A29E00877BD5 /* Frameworks */,
+				767ADC0820B8A29E00877BD5 /* Resources */,
+				767ADC5B20B8A2A000877BD5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				767ADC3520B8A29F00877BD5 /* PBXTargetDependency */,
+			);
+			name = "FIT Fuze";
+			productName = "FIT Fuze";
+			productReference = 767ADC0A20B8A29E00877BD5 /* FIT Fuze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		767ADC1D20B8A29F00877BD5 /* FIT FuzeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767ADC5F20B8A2A000877BD5 /* Build configuration list for PBXNativeTarget "FIT FuzeTests" */;
+			buildPhases = (
+				767ADC1A20B8A29F00877BD5 /* Sources */,
+				767ADC1B20B8A29F00877BD5 /* Frameworks */,
+				767ADC1C20B8A29F00877BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				767ADC2020B8A29F00877BD5 /* PBXTargetDependency */,
+			);
+			name = "FIT FuzeTests";
+			productName = "FIT FuzeTests";
+			productReference = 767ADC1E20B8A29F00877BD5 /* FIT FuzeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		767ADC2820B8A29F00877BD5 /* FIT FuzeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767ADC6220B8A2A000877BD5 /* Build configuration list for PBXNativeTarget "FIT FuzeUITests" */;
+			buildPhases = (
+				767ADC2520B8A29F00877BD5 /* Sources */,
+				767ADC2620B8A29F00877BD5 /* Frameworks */,
+				767ADC2720B8A29F00877BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				767ADC2B20B8A29F00877BD5 /* PBXTargetDependency */,
+			);
+			name = "FIT FuzeUITests";
+			productName = "FIT FuzeUITests";
+			productReference = 767ADC2920B8A29F00877BD5 /* FIT FuzeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		767ADC3120B8A29F00877BD5 /* FIT Fuze WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767ADC5820B8A2A000877BD5 /* Build configuration list for PBXNativeTarget "FIT Fuze WatchKit App" */;
+			buildPhases = (
+				767ADC3020B8A29F00877BD5 /* Resources */,
+				767ADC5720B8A2A000877BD5 /* Embed App Extensions */,
+				FA798E5F56A0D9B807FC9DD0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				767ADC4420B8A29F00877BD5 /* PBXTargetDependency */,
+			);
+			name = "FIT Fuze WatchKit App";
+			productName = "FIT Fuze WatchKit App";
+			productReference = 767ADC3220B8A29F00877BD5 /* FIT Fuze WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		767ADC4020B8A29F00877BD5 /* FIT Fuze WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767ADC5420B8A2A000877BD5 /* Build configuration list for PBXNativeTarget "FIT Fuze WatchKit Extension" */;
+			buildPhases = (
+				767ADC3D20B8A29F00877BD5 /* Sources */,
+				767ADC3E20B8A29F00877BD5 /* Frameworks */,
+				767ADC3F20B8A29F00877BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FIT Fuze WatchKit Extension";
+			productName = "FIT Fuze WatchKit Extension";
+			productReference = 767ADC4120B8A29F00877BD5 /* FIT Fuze WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		767ADC0220B8A29E00877BD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = FIT;
+				TargetAttributes = {
+					767ADC0920B8A29E00877BD5 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					767ADC1D20B8A29F00877BD5 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 767ADC0920B8A29E00877BD5;
+					};
+					767ADC2820B8A29F00877BD5 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 767ADC0920B8A29E00877BD5;
+					};
+					767ADC3120B8A29F00877BD5 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					767ADC4020B8A29F00877BD5 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 767ADC0520B8A29E00877BD5 /* Build configuration list for PBXProject "FIT Fuze" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				ru,
+			);
+			mainGroup = 767ADC0120B8A29E00877BD5;
+			productRefGroup = 767ADC0B20B8A29E00877BD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				767ADC0920B8A29E00877BD5 /* FIT Fuze */,
+				767ADC1D20B8A29F00877BD5 /* FIT FuzeTests */,
+				767ADC2820B8A29F00877BD5 /* FIT FuzeUITests */,
+				767ADC3120B8A29F00877BD5 /* FIT Fuze WatchKit App */,
+				767ADC4020B8A29F00877BD5 /* FIT Fuze WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		767ADC0820B8A29E00877BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767ADC1820B8A29E00877BD5 /* LaunchScreen.storyboard in Resources */,
+				767ADD2A20B8A47A00877BD5 /* Localizable.strings in Resources */,
+				767ADD2620B8A3CA00877BD5 /* PrimaryMuscleGroups.xcassets in Resources */,
+				767ADD2720B8A3CA00877BD5 /* SecondaryMusleGroups.xcassets in Resources */,
+				767ADC1520B8A29E00877BD5 /* Assets.xcassets in Resources */,
+				767ADC1320B8A29E00877BD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767ADC1C20B8A29F00877BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767ADC2720B8A29F00877BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767ADC3020B8A29F00877BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767ADC3B20B8A29F00877BD5 /* Assets.xcassets in Resources */,
+				767ADC3920B8A29F00877BD5 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767ADC3F20B8A29F00877BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767ADC4F20B8A2A000877BD5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC1704E834FD6727086A7E11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FIT Fuze-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		767ADC0620B8A29E00877BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767ADD2120B8A2EE00877BD5 /* DetailedWorkoutCollectionViewCell.swift in Sources */,
+				767ADD2320B8A2EE00877BD5 /* MenuViewController.swift in Sources */,
+				767ADD2220B8A2EE00877BD5 /* CurrentPlanViewController.swift in Sources */,
+				767ADC1020B8A29E00877BD5 /* ViewController.swift in Sources */,
+				767ADC0E20B8A29E00877BD5 /* AppDelegate.swift in Sources */,
+				767ADD2020B8A2EE00877BD5 /* SimpleImageCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767ADC1A20B8A29F00877BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767ADC2320B8A29F00877BD5 /* FIT_FuzeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767ADC2520B8A29F00877BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767ADC2E20B8A29F00877BD5 /* FIT_FuzeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767ADC3D20B8A29F00877BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767ADC4B20B8A29F00877BD5 /* NotificationController.swift in Sources */,
+				767ADC4D20B8A29F00877BD5 /* ComplicationController.swift in Sources */,
+				767ADC4920B8A29F00877BD5 /* ExtensionDelegate.swift in Sources */,
+				767ADC4720B8A29F00877BD5 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		767ADC2020B8A29F00877BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 767ADC0920B8A29E00877BD5 /* FIT Fuze */;
+			targetProxy = 767ADC1F20B8A29F00877BD5 /* PBXContainerItemProxy */;
+		};
+		767ADC2B20B8A29F00877BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 767ADC0920B8A29E00877BD5 /* FIT Fuze */;
+			targetProxy = 767ADC2A20B8A29F00877BD5 /* PBXContainerItemProxy */;
+		};
+		767ADC3520B8A29F00877BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 767ADC3120B8A29F00877BD5 /* FIT Fuze WatchKit App */;
+			targetProxy = 767ADC3420B8A29F00877BD5 /* PBXContainerItemProxy */;
+		};
+		767ADC4420B8A29F00877BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 767ADC4020B8A29F00877BD5 /* FIT Fuze WatchKit Extension */;
+			targetProxy = 767ADC4320B8A29F00877BD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		767ADC1120B8A29E00877BD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767ADC1220B8A29E00877BD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		767ADC1620B8A29E00877BD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767ADC1720B8A29E00877BD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		767ADC3720B8A29F00877BD5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767ADC3820B8A29F00877BD5 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		767ADC5220B8A2A000877BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		767ADC5320B8A2A000877BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		767ADC5520B8A2A000877BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB9892SWY3;
+				INFOPLIST_FILE = "FIT Fuze WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FITFuze.pro.FIT-Fuze.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		767ADC5620B8A2A000877BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB9892SWY3;
+				INFOPLIST_FILE = "FIT Fuze WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FITFuze.pro.FIT-Fuze.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		767ADC5920B8A2A000877BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB9892SWY3;
+				IBSC_MODULE = FIT_Fuze_WatchKit_Extension;
+				INFOPLIST_FILE = "FIT Fuze WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FITFuze.pro.FIT-Fuze.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		767ADC5A20B8A2A000877BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB9892SWY3;
+				IBSC_MODULE = FIT_Fuze_WatchKit_Extension;
+				INFOPLIST_FILE = "FIT Fuze WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FITFuze.pro.FIT-Fuze.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		767ADC5D20B8A2A000877BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 191118EFBEE3CA1F76627CFE /* Pods-FIT Fuze.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB9892SWY3;
+				INFOPLIST_FILE = "FIT Fuze/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FITFuze.pro.FIT-Fuze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		767ADC5E20B8A2A000877BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F3488DA8B25CDE3A14F59C6 /* Pods-FIT Fuze.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB9892SWY3;
+				INFOPLIST_FILE = "FIT Fuze/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FITFuze.pro.FIT-Fuze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		767ADC6020B8A2A000877BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB9892SWY3;
+				INFOPLIST_FILE = "FIT FuzeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FITFuze.pro.FIT-FuzeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIT Fuze.app/FIT Fuze";
+			};
+			name = Debug;
+		};
+		767ADC6120B8A2A000877BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB9892SWY3;
+				INFOPLIST_FILE = "FIT FuzeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FITFuze.pro.FIT-FuzeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIT Fuze.app/FIT Fuze";
+			};
+			name = Release;
+		};
+		767ADC6320B8A2A000877BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB9892SWY3;
+				INFOPLIST_FILE = "FIT FuzeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FITFuze.pro.FIT-FuzeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FIT Fuze";
+			};
+			name = Debug;
+		};
+		767ADC6420B8A2A000877BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PB9892SWY3;
+				INFOPLIST_FILE = "FIT FuzeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FITFuze.pro.FIT-FuzeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FIT Fuze";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		767ADC0520B8A29E00877BD5 /* Build configuration list for PBXProject "FIT Fuze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767ADC5220B8A2A000877BD5 /* Debug */,
+				767ADC5320B8A2A000877BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767ADC5420B8A2A000877BD5 /* Build configuration list for PBXNativeTarget "FIT Fuze WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767ADC5520B8A2A000877BD5 /* Debug */,
+				767ADC5620B8A2A000877BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767ADC5820B8A2A000877BD5 /* Build configuration list for PBXNativeTarget "FIT Fuze WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767ADC5920B8A2A000877BD5 /* Debug */,
+				767ADC5A20B8A2A000877BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767ADC5C20B8A2A000877BD5 /* Build configuration list for PBXNativeTarget "FIT Fuze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767ADC5D20B8A2A000877BD5 /* Debug */,
+				767ADC5E20B8A2A000877BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767ADC5F20B8A2A000877BD5 /* Build configuration list for PBXNativeTarget "FIT FuzeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767ADC6020B8A2A000877BD5 /* Debug */,
+				767ADC6120B8A2A000877BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767ADC6220B8A2A000877BD5 /* Build configuration list for PBXNativeTarget "FIT FuzeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767ADC6320B8A2A000877BD5 /* Debug */,
+				767ADC6420B8A2A000877BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 767ADC0220B8A29E00877BD5 /* Project object */;
+}

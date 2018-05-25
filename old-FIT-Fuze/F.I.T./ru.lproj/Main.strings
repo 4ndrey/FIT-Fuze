@@ -1,0 +1,363 @@
+
+/* Class = "UILabel"; text = "4 exercises ❯"; ObjectID = "0oh-ww-twA"; */
+"0oh-ww-twA.text" = "4 exercises ❯";
+
+/* Class = "UIViewController"; title = "Выходные данные"; ObjectID = "172-WJ-M46"; */
+"172-WJ-M46.title" = "Выходные данные";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "1nG-4q-iIi"; */
+"1nG-4q-iIi.title" = " ";
+
+/* Class = "UILabel"; text = "+"; ObjectID = "2Ad-pY-Poo"; */
+"2Ad-pY-Poo.text" = "+";
+
+/* Class = "UILabel"; text = "Bench Press"; ObjectID = "3Fu-cz-dKf"; */
+"3Fu-cz-dKf.text" = "Bench Press";
+
+/* Class = "UISegmentedControl"; 3wJ-1H-fXf.segmentTitles[0] = "First"; ObjectID = "3wJ-1H-fXf"; */
+"3wJ-1H-fXf.segmentTitles[0]" = "First";
+
+/* Class = "UISegmentedControl"; 3wJ-1H-fXf.segmentTitles[1] = "Second"; ObjectID = "3wJ-1H-fXf"; */
+"3wJ-1H-fXf.segmentTitles[1]" = "Second";
+
+/* Class = "UILabel"; text = "Statistics"; ObjectID = "4yq-Cz-DmN"; */
+"4yq-Cz-DmN.text" = "Statistics";
+
+/* Class = "UIButton"; normalTitle = "Add new plan"; ObjectID = "51F-LJ-IZN"; */
+"51F-LJ-IZN.normalTitle" = "Add new plan";
+
+/* Class = "UIButton"; normalTitle = "Add exercises"; ObjectID = "5WV-cQ-xWc"; */
+"5WV-cQ-xWc.normalTitle" = "Add exercises";
+
+/* Class = "UILabel"; text = "✓"; ObjectID = "6FI-OV-hoc"; */
+"6FI-OV-hoc.text" = "✓";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6H1-AB-xWv"; */
+"6H1-AB-xWv.text" = "Label";
+
+/* Class = "UILabel"; text = "beginner"; ObjectID = "75H-m8-65e"; */
+"75H-m8-65e.text" = "beginner";
+
+/* Class = "UILabel"; text = "1,5h"; ObjectID = "7Gb-vV-ZvN"; */
+"7Gb-vV-ZvN.text" = "1,5h";
+
+/* Class = "UILabel"; text = "4 sets, 8 repetitions each"; ObjectID = "7Wr-2f-R6R"; */
+"7Wr-2f-R6R.text" = "4 sets, 8 repetitions each";
+
+/* Class = "UISegmentedControl"; 7ue-ve-hZN.segmentTitles[0] = "Graph"; ObjectID = "7ue-ve-hZN"; */
+"7ue-ve-hZN.segmentTitles[0]" = "Graph";
+
+/* Class = "UISegmentedControl"; 7ue-ve-hZN.segmentTitles[1] = "Calendar"; ObjectID = "7ue-ve-hZN"; */
+"7ue-ve-hZN.segmentTitles[1]" = "Calendar";
+
+/* Class = "UILabel"; text = "Workout is finished!"; ObjectID = "9WC-GJ-VAl"; */
+"9WC-GJ-VAl.text" = "Workout is finished!";
+
+/* Class = "UILabel"; text = "no internet"; ObjectID = "9qV-G8-5BT"; */
+"9qV-G8-5BT.text" = "no internet";
+
+/* Class = "UIButton"; normalTitle = "Start today's workout"; ObjectID = "9sd-eY-82V"; */
+"9sd-eY-82V.normalTitle" = "Start today's workout";
+
+/* Class = "UIButton"; selectedTitle = "Start today's workout"; ObjectID = "9sd-eY-82V"; */
+"9sd-eY-82V.selectedTitle" = "Start today's workout";
+
+/* Class = "UILabel"; text = "max"; ObjectID = "ATk-oX-jAI"; */
+"ATk-oX-jAI.text" = "max";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "BC6-Ua-Lmz"; */
+"BC6-Ua-Lmz.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "BKt-0K-4a8"; */
+"BKt-0K-4a8.title" = "Done";
+
+/* Class = "UILabel"; text = "3 day split"; ObjectID = "Bcy-B1-85V"; */
+"Bcy-B1-85V.text" = "3 day split";
+
+/* Class = "UILabel"; text = "Legs"; ObjectID = "BnE-dx-iZc"; */
+"BnE-dx-iZc.text" = "Legs";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Bp4-Ql-b7e"; */
+"Bp4-Ql-b7e.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "4 exercises ∨"; ObjectID = "CO3-go-a7Q"; */
+"CO3-go-a7Q.normalTitle" = "4 exercises ∨";
+
+/* Class = "UILabel"; text = "Just shake your iPhone from anywhere in the app and submit us your report or feedback."; ObjectID = "Cbf-le-gJ9"; */
+"Cbf-le-gJ9.text" = "Just shake your iPhone from anywhere in the app and submit us your report or feedback.";
+
+/* Class = "UILabel"; text = "min"; ObjectID = "Cve-8A-C6u"; */
+"Cve-8A-C6u.text" = "min";
+
+/* Class = "UIButton"; normalTitle = "Purchase training plan"; ObjectID = "Cwu-7U-K6U"; */
+"Cwu-7U-K6U.normalTitle" = "Purchase training plan";
+
+/* Class = "UILabel"; text = "Legs"; ObjectID = "D9l-AK-mXR"; */
+"D9l-AK-mXR.text" = "Legs";
+
+/* Class = "UILabel"; text = "Legs"; ObjectID = "FE5-qJ-Vdc"; */
+"FE5-qJ-Vdc.text" = "Legs";
+
+/* Class = "UILabel"; text = "Pause before the set"; ObjectID = "FN6-UM-2ok"; */
+"FN6-UM-2ok.text" = "Pause before the set";
+
+/* Class = "UILabel"; text = "Chest"; ObjectID = "FfO-9M-ich"; */
+"FfO-9M-ich.text" = "Chest";
+
+/* Class = "UINavigationItem"; title = "Workouts"; ObjectID = "G0R-H7-3KH"; */
+"G0R-H7-3KH.title" = "Workouts";
+
+/* Class = "UIButton"; normalTitle = "Select training plan"; ObjectID = "GIO-8X-W5X"; */
+"GIO-8X-W5X.normalTitle" = "Select training plan";
+
+/* Class = "UIBarButtonItem"; title = "Edit"; ObjectID = "Hdu-Rm-fkf"; */
+"Hdu-Rm-fkf.title" = "Edit";
+
+/* Class = "UIButton"; normalTitle = "Restore purchases"; ObjectID = "Hkw-ot-INf"; */
+"Hkw-ot-INf.normalTitle" = "Restore purchases";
+
+/* Class = "UINavigationItem"; title = "Choose the training plan"; ObjectID = "IJm-KV-HX6"; */
+"IJm-KV-HX6.title" = "Choose the training plan";
+
+/* Class = "UILabel"; text = "add set"; ObjectID = "Iq0-jW-4sR"; */
+"Iq0-jW-4sR.text" = "add set";
+
+/* Class = "UINavigationItem"; title = "Exercises"; ObjectID = "JEi-44-HcW"; */
+"JEi-44-HcW.title" = "Exercises";
+
+/* Class = "UITextView"; text = "Health Disclaimer\n\nANY AND ALL INFORMATION CONTAINED ON THIS APPLICATION IS NOT INTENDED TO TAKE THE PLACE OF MEDICAL ADVICE FROM A HEALTH CARE PROFESSIONAL. EXERCISE, DIET AND HEALTH RELATED MATTERS VARY FROM PERSON TO PERSON. NOTHING ON THIS APPLICATION SHALL BE CONSIDERED, OR USED AS A SUBSTITUTE FOR, MEDICAL ADVICE, DIAGNOSIS OR TREATMENT. ANY ACTION WHATSOEVER WHICH IS TAKEN BASED ON THE CONTENTS OF THIS APPLICATION OR ANY OF ITS RELATED SITES, MATERIALS, PRODUCTS OR INFORMATION IS TO BE USED SOLELY AT YOUR OWN DISCRETION, RISK AND LIABILITY. YOU SHOULD ALWAYS CONSULT THE APPROPRIATE HEALTH PROFESSIONALS ON ANY MATTER THAT IS RELATED TO YOUR HEALTH AND WELL BEING BEFORE PROCEEDING WITH ANY ACTION PERTAINING TO HEALTH RELATED ISSUES. WHILE THE INFORMATION PROVIDED ON THIS APPLICATION IS BELIEVED TO BE ACCURATE, THIS APPLICATION ASSUMES NO LIABILITY FOR THE USE OR MISUSE OF INFORMATION AND PRODUCTS ON THIS APPLICATION.\nNEITHER THIS APPLICATION NOR ITS AFFILIATES, DIRECTORS, OFFICERS, OWNERS, EMPLOYEES, AGENTS, CONTRACTORS, REPRESENTATIVES, SUCCESSORS OR ASSIGNS, SHALL BE RESPONSIBLE IF YOU FAIL TO CONSULT THE APPROPRIATE HEALTH AUTHORITIES WITH RESPECT TO YOUR HEALTH CARE BEFORE ACTING ON OR USING ANY INFORMATION OR PRODUCTS FOUND ON THIS APPLICATION, NOR WILL THEY BE RESPONSIBLE FOR ANY ERRORS OR OMISSIONS, OR THE USE OR MISUSE OF, THE INFORMATION ON THIS APPLICATION"; ObjectID = "Jdi-M6-SYj"; */
+"Jdi-M6-SYj.text" = "Health Disclaimer\n\nANY AND ALL INFORMATION CONTAINED ON THIS APPLICATION IS NOT INTENDED TO TAKE THE PLACE OF MEDICAL ADVICE FROM A HEALTH CARE PROFESSIONAL. EXERCISE, DIET AND HEALTH RELATED MATTERS VARY FROM PERSON TO PERSON. NOTHING ON THIS APPLICATION SHALL BE CONSIDERED, OR USED AS A SUBSTITUTE FOR, MEDICAL ADVICE, DIAGNOSIS OR TREATMENT. ANY ACTION WHATSOEVER WHICH IS TAKEN BASED ON THE CONTENTS OF THIS APPLICATION OR ANY OF ITS RELATED SITES, MATERIALS, PRODUCTS OR INFORMATION IS TO BE USED SOLELY AT YOUR OWN DISCRETION, RISK AND LIABILITY. YOU SHOULD ALWAYS CONSULT THE APPROPRIATE HEALTH PROFESSIONALS ON ANY MATTER THAT IS RELATED TO YOUR HEALTH AND WELL BEING BEFORE PROCEEDING WITH ANY ACTION PERTAINING TO HEALTH RELATED ISSUES. WHILE THE INFORMATION PROVIDED ON THIS APPLICATION IS BELIEVED TO BE ACCURATE, THIS APPLICATION ASSUMES NO LIABILITY FOR THE USE OR MISUSE OF INFORMATION AND PRODUCTS ON THIS APPLICATION.\nNEITHER THIS APPLICATION NOR ITS AFFILIATES, DIRECTORS, OFFICERS, OWNERS, EMPLOYEES, AGENTS, CONTRACTORS, REPRESENTATIVES, SUCCESSORS OR ASSIGNS, SHALL BE RESPONSIBLE IF YOU FAIL TO CONSULT THE APPROPRIATE HEALTH AUTHORITIES WITH RESPECT TO YOUR HEALTH CARE BEFORE ACTING ON OR USING ANY INFORMATION OR PRODUCTS FOUND ON THIS APPLICATION, NOR WILL THEY BE RESPONSIBLE FOR ANY ERRORS OR OMISSIONS, OR THE USE OR MISUSE OF, THE INFORMATION ON THIS APPLICATION";
+
+/* Class = "UILabel"; text = "4 exercises ❯"; ObjectID = "K9O-9X-jGW"; */
+"K9O-9X-jGW.text" = "4 exercises ❯";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LLg-a3-TrM"; */
+"LLg-a3-TrM.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "AGB"; ObjectID = "Ldb-8u-nYs"; */
+"Ldb-8u-nYs.normalTitle" = "AGB";
+
+/* Class = "UILabel"; text = "3 day split"; ObjectID = "Lg8-O1-Ous"; */
+"Lg8-O1-Ous.text" = "3 day split";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LjG-53-8Q3"; */
+"LjG-53-8Q3.text" = "Label";
+
+/* Class = "UILabel"; text = "Legs"; ObjectID = "NHR-3j-YaR"; */
+"NHR-3j-YaR.text" = "Legs";
+
+/* Class = "UINavigationItem"; title = "Workouts"; ObjectID = "NMN-sa-K4N"; */
+"NMN-sa-K4N.title" = "Workouts";
+
+/* Class = "UILabel"; text = "Paid Training Plans"; ObjectID = "Nc0-ZW-KI0"; */
+"Nc0-ZW-KI0.text" = "Paid Training Plans";
+
+/* Class = "UINavigationItem"; title = "Training Plan"; ObjectID = "OA6-G3-Pl0"; */
+"OA6-G3-Pl0.title" = "Training Plan";
+
+/* Class = "UILabel"; text = "Rest Time"; ObjectID = "OVM-bQ-q48"; */
+"OVM-bQ-q48.text" = "Rest Time";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "PDb-08-Q4f"; */
+"PDb-08-Q4f.title" = " ";
+
+/* Class = "UILabel"; text = "Legs"; ObjectID = "PIp-Qr-jtA"; */
+"PIp-Qr-jtA.text" = "Legs";
+
+/* Class = "UILabel"; text = "добавить\nподход"; ObjectID = "Pv9-Mn-X0m"; */
+"Pv9-Mn-X0m.text" = "добавить\nподход";
+
+/* Class = "UIButton"; normalTitle = "Auf zum nächsten Plan"; ObjectID = "Q13-NO-cbK"; */
+"Q13-NO-cbK.normalTitle" = "Auf zum nächsten Plan";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ROn-0U-I3b"; */
+"ROn-0U-I3b.text" = "Label";
+
+/* Class = "UIViewController"; title = "Choose Muscle Group"; ObjectID = "RwX-3u-CHe"; */
+"RwX-3u-CHe.title" = "Choose Muscle Group";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Sfg-yG-1WK"; */
+"Sfg-yG-1WK.title" = " ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Sy1-aq-po0"; */
+"Sy1-aq-po0.text" = "Label";
+
+/* Class = "UILabel"; text = "1,5h"; ObjectID = "T7X-41-F3P"; */
+"T7X-41-F3P.text" = "1,5h";
+
+/* Class = "UILabel"; text = "Set in progress"; ObjectID = "Tgp-Q5-5jy"; */
+"Tgp-Q5-5jy.text" = "Set in progress";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TrC-gV-4Mj"; */
+"TrC-gV-4Mj.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VdZ-vz-MIU"; */
+"VdZ-vz-MIU.text" = "Label";
+
+/* Class = "UILabel"; text = "1:22"; ObjectID = "WOI-cf-lhR"; */
+"WOI-cf-lhR.text" = "1:22";
+
+/* Class = "UIButton"; normalTitle = "    Exit Workout    "; ObjectID = "WYC-Xy-LLk"; */
+"WYC-Xy-LLk.normalTitle" = "    Exit Workout    ";
+
+/* Class = "UINavigationItem"; title = "Workouts"; ObjectID = "WfZ-xU-ScM"; */
+"WfZ-xU-ScM.title" = "Workouts";
+
+/* Class = "UIButton"; normalTitle = "       OK       "; ObjectID = "Wig-8D-n7k"; */
+"Wig-8D-n7k.normalTitle" = "       OK       ";
+
+/* Class = "UILabel"; text = "3 day split"; ObjectID = "Wnc-Jr-mkq"; */
+"Wnc-Jr-mkq.text" = "3 day split";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "ZT5-A4-leD"; */
+"ZT5-A4-leD.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "ZgJ-6i-KY3"; */
+"ZgJ-6i-KY3.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "See tutorial ❯"; ObjectID = "ZiY-F8-wjv"; */
+"ZiY-F8-wjv.normalTitle" = "See tutorial ❯";
+
+/* Class = "UILabel"; text = "Training plan is finished!"; ObjectID = "Zks-06-N2N"; */
+"Zks-06-N2N.text" = "Training plan is finished!";
+
+/* Class = "UILabel"; text = "Legs"; ObjectID = "aK6-kg-yzV"; */
+"aK6-kg-yzV.text" = "Legs";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "aoz-Ob-sZQ"; */
+"aoz-Ob-sZQ.title" = "Done";
+
+/* Class = "UILabel"; text = "1:22"; ObjectID = "awt-Ji-hgR"; */
+"awt-Ji-hgR.text" = "1:22";
+
+/* Class = "UILabel"; text = "BeachBody"; ObjectID = "axl-94-fU7"; */
+"axl-94-fU7.text" = "BeachBody";
+
+/* Class = "UISegmentedControl"; bwf-fh-BQ5.segmentTitles[0] = "kg"; ObjectID = "bwf-fh-BQ5"; */
+"bwf-fh-BQ5.segmentTitles[0]" = "kg";
+
+/* Class = "UISegmentedControl"; bwf-fh-BQ5.segmentTitles[1] = "lbs"; ObjectID = "bwf-fh-BQ5"; */
+"bwf-fh-BQ5.segmentTitles[1]" = "lbs";
+
+/* Class = "UILabel"; text = "+"; ObjectID = "cZm-El-Zpi"; */
+"cZm-El-Zpi.text" = "+";
+
+/* Class = "UILabel"; text = "1:22"; ObjectID = "cek-f2-Svp"; */
+"cek-f2-Svp.text" = "1:22";
+
+/* Class = "UISegmentedControl"; d6x-jr-PpQ.segmentTitles[0] = "How to"; ObjectID = "d6x-jr-PpQ"; */
+"d6x-jr-PpQ.segmentTitles[0]" = "How to";
+
+/* Class = "UISegmentedControl"; d6x-jr-PpQ.segmentTitles[1] = "Muscles"; ObjectID = "d6x-jr-PpQ"; */
+"d6x-jr-PpQ.segmentTitles[1]" = "Muscles";
+
+/* Class = "UILabel"; text = "Bench Press"; ObjectID = "ev0-En-Ehr"; */
+"ev0-En-Ehr.text" = "Bench Press";
+
+/* Class = "UILabel"; text = "4 sets, 8 repetitions each"; ObjectID = "fYA-Ej-yTw"; */
+"fYA-Ej-yTw.text" = "4 sets, 8 repetitions each";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ffe-26-C2m"; */
+"ffe-26-C2m.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "1,5h"; ObjectID = "gPB-76-WHy"; */
+"gPB-76-WHy.text" = "1,5h";
+
+/* Class = "UILabel"; text = "75 %"; ObjectID = "hHy-3Y-dEj"; */
+"hHy-3Y-dEj.text" = "75 %";
+
+/* Class = "UIButton"; normalTitle = "4 exercises"; ObjectID = "hT3-Xb-mb6"; */
+"hT3-Xb-mb6.normalTitle" = "4 exercises";
+
+/* Class = "UIButton"; normalTitle = "Select training plan"; ObjectID = "hbB-Ig-ZUS"; */
+"hbB-Ig-ZUS.normalTitle" = "Select training plan";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "hwl-ex-BSq"; */
+"hwl-ex-BSq.title" = " ";
+
+/* Class = "UILabel"; text = "Set is not implemented"; ObjectID = "i5q-5Y-HA9"; */
+"i5q-5Y-HA9.text" = "Set is not implemented";
+
+/* Class = "UILabel"; text = "bodybuilding"; ObjectID = "jGb-Un-Fkf"; */
+"jGb-Un-Fkf.text" = "bodybuilding";
+
+/* Class = "UINavigationItem"; title = "Custom training plans"; ObjectID = "l0Z-dk-mFH"; */
+"l0Z-dk-mFH.title" = "Custom training plans";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "mp0-KD-gdv"; */
+"mp0-KD-gdv.title" = " ";
+
+/* Class = "UILabel"; text = "+"; ObjectID = "n3E-PE-0Pd"; */
+"n3E-PE-0Pd.text" = "+";
+
+/* Class = "UILabel"; text = "- repetitions"; ObjectID = "nzo-so-Uo3"; */
+"nzo-so-Uo3.text" = "- repetitions";
+
+/* Class = "UILabel"; text = "Bench Press"; ObjectID = "oPx-WH-04x"; */
+"oPx-WH-04x.text" = "Bench Press";
+
+/* Class = "UINavigationItem"; title = "Choose the muscle group"; ObjectID = "pSS-Tl-RzB"; */
+"pSS-Tl-RzB.title" = "Choose the muscle group";
+
+/* Class = "UIButton"; normalTitle = "Add workout"; ObjectID = "qch-Ro-LVg"; */
+"qch-Ro-LVg.normalTitle" = "Add workout";
+
+/* Class = "UILabel"; text = "or"; ObjectID = "qxN-GB-WfI"; */
+"qxN-GB-WfI.text" = "or";
+
+/* Class = "UILabel"; text = "Please allow the app to send you notifications - thus we'll be able to signal you when selected timers would be finished. You can change this setup in Settings."; ObjectID = "r0Q-ph-dTg"; */
+"r0Q-ph-dTg.text" = "Please allow the app to send you notifications - thus we'll be able to signal you when selected timers would be finished. You can change this setup in Settings.";
+
+/* Class = "UILabel"; text = "your current training plan"; ObjectID = "rlI-gB-ieA"; */
+"rlI-gB-ieA.text" = "your current training plan";
+
+/* Class = "UILabel"; text = "3 of 6 done"; ObjectID = "sb0-zS-flx"; */
+"sb0-zS-flx.text" = "3 of 6 done";
+
+/* Class = "UILabel"; text = "1,5h"; ObjectID = "suf-c4-9I8"; */
+"suf-c4-9I8.text" = "1,5h";
+
+/* Class = "UILabel"; text = "Set is finished"; ObjectID = "tRG-Vm-sa3"; */
+"tRG-Vm-sa3.text" = "Set is finished";
+
+/* Class = "UINavigationItem"; title = "Workouts"; ObjectID = "tf6-hE-nLH"; */
+"tf6-hE-nLH.title" = "Workouts";
+
+/* Class = "UILabel"; text = "- kg"; ObjectID = "tf8-4q-fCR"; */
+"tf8-4q-fCR.text" = "- kg";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uG3-Hj-wNa"; */
+"uG3-Hj-wNa.text" = "Label";
+
+/* Class = "UILabel"; text = "number"; ObjectID = "ves-cB-SGS"; */
+"ves-cB-SGS.text" = "number";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "vqv-bV-0AU"; */
+"vqv-bV-0AU.title" = "Settings";
+
+/* Class = "UILabel"; text = "number"; ObjectID = "vzU-PL-1Db"; */
+"vzU-PL-1Db.text" = "number";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wy0-rn-vCG"; */
+"wy0-rn-vCG.text" = "Label";
+
+/* Class = "UILabel"; text = "Questions, proposals?\nWe're here to help"; ObjectID = "xAw-3R-yx0"; */
+"xAw-3R-yx0.text" = "Questions, proposals?\nWe're here to help";
+
+/* Class = "UILabel"; text = "Set is finished. \nMark set as:"; ObjectID = "xpZ-RB-ZWF"; */
+"xpZ-RB-ZWF.text" = "Set is finished. \nMark set as:";
+
+/* Class = "UILabel"; text = "TODAY"; ObjectID = "yY4-fC-w1w"; */
+"yY4-fC-w1w.text" = "TODAY";
+
+/* Class = "UILabel"; text = "Pause before the set. To be notified about the pause end you should enable notifications."; ObjectID = "z63-aD-uNi"; */
+"z63-aD-uNi.text" = "Pause before the set. To be notified about the pause end you should enable notifications.";
+
+/* Class = "UIButton"; normalTitle = "Retry connection"; ObjectID = "zU7-3f-zVW"; */
+"zU7-3f-zVW.normalTitle" = "Retry connection";
+
+/* Class = "UIButton"; normalTitle = "Select training plan"; ObjectID = "zdx-bF-AtH"; */
+"zdx-bF-AtH.normalTitle" = "Select training plan";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zf3-hP-emz"; */
+"zf3-hP-emz.text" = "Label";

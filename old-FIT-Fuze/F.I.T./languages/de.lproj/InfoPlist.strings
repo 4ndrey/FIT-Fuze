@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleDisplayName = "FIT Fuze";
+
+START_NEXT_WORKOUT_SHORTCUT_TITLE = "Anfangen!";
+START_NEXT_WORKOUT_SHORTCUT_SUBTITLE = "Nächstes Workout starten";
