@@ -1,0 +1,2247 @@
+{
+    "trainingPrograms": [
+                         {
+                         "name": "trainingProgramm_1_name",
+                         "description": "trainingProgramm_1_description",
+                         "type": "Fitness",
+                         "level": "Beginner",
+                         "repetitions": 12,
+                         "programId": "free001",
+                         "free": 1,
+                         "trainings": [
+                                       {
+                                       "name": "trainingProgramm_1_workout_1_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3,
+                                                                },
+                                                                "exerciseName": "Bench Press",
+                                                                "withNext": 0
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Lat Pulldown",
+                                                                "withNext": 0
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Standing Military Press",
+                                                                "withNext": 0
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Triceps Pushdowns (Rope attachment)"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Barbell Biceps Curl",
+                                                                "withNext": 0
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Barbell Squat"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Crunch"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_1_workout_2_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Lat Pulldown"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3,
+                                                                },
+                                                                "exerciseName": "Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Standing Military Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Triceps Pushdowns (Rope attachment)"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Barbell Biceps Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Barbell Squat"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Crunch"
+                                                                }
+                                                                ]
+                                       }
+                                       ]
+                         },
+                         {
+                         "name": "trainingProgramm_2_name",
+                         "description": "trainingProgramm_2_description",
+                         "type": "Fitness",
+                         "level": "Beginner",
+                         "repetitions": 12,
+                         "programId": "paid001",
+                         "free": 0,
+                         "trainings": [
+                                       {
+                                       "name": "trainingProgramm_2_workout_1_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Ab Crunch Machine"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 25,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 2
+                                                                },
+                                                                "exerciseName": "Crunch"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 2
+                                                                },
+                                                                "exerciseName": "Rotation Crunch"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 25,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 2
+                                                                },
+                                                                "exerciseName": "Seated Leg Pull In"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_2_workout_2_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 20,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Hanging Leg Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 2
+                                                                },
+                                                                "exerciseName": "Cable Crunch"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 2
+                                                                },
+                                                                "exerciseName": "Cross-Body Crunch"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Incline Bench Side Bend"
+                                                                }
+                                                                ]
+                                       }
+                                       ]
+                         },
+                         {
+                         "name": "trainingProgramm_3_name",
+                         "description": "trainingProgramm_3_description",
+                         "type": "Fitness",
+                         "level": "Beginner",
+                         "repetitions": 16,
+                         "programId": "paid002",
+                         "free": 0,
+                         "trainings": [
+                                       {
+                                       "name": "trainingProgramm_3_workout_1_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Lat Pulldown"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated V-Bar Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Barbell Biceps Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Concentration Biceps Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Barbell Squat"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Calf Press Machine"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Ab Crunch Machine"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 20,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Hanging Leg Raise"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_3_workout_2_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Butterfly Machine"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Standing Military Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Barbell Shrug"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Narrow Dips"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Cable One Arm Triceps Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 25,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Crunch"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Cable Crunch"
+                                                                }
+                                                                ]
+                                       }
+                                       ]
+                         },
+                         {
+                         "name": "trainingProgramm_4_name",
+                         "description": "trainingProgramm_4_description",
+                         "type": "Bodybuilding",
+                         "level": "Intermediate",
+                         "repetitions": 12,
+                         "programId": "free002",
+                         "free": 1,
+                         "trainings": [
+                                       {
+                                       "name": "trainingProgramm_4_workout_2_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Lat Pulldown"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Barbell Dead Lift"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated V-Bar Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Lying EZ-Barbell Triceps Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Narrow Dips"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Triceps Pushdowns (Rope attachment)"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 25,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Crunch"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 20,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Hanging Leg Raise"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_4_workout_1_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Dumbbell Incline Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Dumbbell Incline Bench Flyes"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Barbell Biceps Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Reverse Grip EZ-Barbell Preacher Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Concentration Biceps Curl"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_4_workout_3_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Barbell Squat"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Leg Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Lying Leg Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Leg Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Calf Press Machine"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Seated Dumbbell Shoulder Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Side Lateral Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "One Arm Dumbbell Front Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Barbell Shrug"
+                                                                }
+                                                                ]
+                                       }
+                                       ]
+                         },
+                         {
+                         "name": "trainingProgramm_5_name",
+                         "description": "trainingProgramm_5_description",
+                         "type": "Bodybuilding",
+                         "level": "Intermediate",
+                         "repetitions": 12,
+                         "programId": "paid003",
+                         "free": 0,
+                         "trainings": [
+                                       {
+                                       "name": "trainingProgramm_5_workout_1_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Incline Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Dumbbell Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Standing Cable Flyes"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Barbell Military Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 2
+                                                                },
+                                                                "exerciseName": "Two Hand Cable Lateral Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 2
+                                                                },
+                                                                "exerciseName": "One Arm Front Cable Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Barbell Shrug"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Overhead EZ-Barbell Triceps Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Cable One Arm Triceps Extension"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_5_workout_2_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Barbell Squat"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Leg Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Lying Leg Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Leg Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Calf Press Machine"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 25,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Crunch"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 20,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Hanging Leg Raise"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_5_workout_3_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Wide Grip Pull Up"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Barbell Dead Lift"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Reverse Grip Bent Over Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated V-Bar Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Barbell Biceps Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Concentration Biceps Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Overhead Curl"
+                                                                }
+                                                                ]
+                                       }
+                                       ]
+                         },
+                         {
+                         "name": "trainingProgramm_6_name",
+                         "description": "trainingProgramm_6_description",
+                         "type": "Bodybuilding",
+                         "level": "Intermediate",
+                         "repetitions": 24,
+                         "programId": "paid004",
+                         "free": 0,
+                         "trainings": [
+                                       {
+                                       "name": "trainingProgramm_6_workout_1_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Dumbbell Incline Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Dumbbell Incline Bench Flyes"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Butterfly Machine"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Reverse Grip EZ-Barbell Preacher Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Standing One Arm Biceps Cable Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Alternate Hammer Biceps Curl"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_6_workout_2_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Barbell Squat"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Leg Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Lying Leg Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Leg Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Calf Press Machine"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Ab Crunch Machine"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 20,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Hanging Leg Raise"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_6_workout_3_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Seated Barbell Military Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "One Arm Lateral Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "One Arm Front Cable Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Dumbbell Shrug"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Narrow Grip Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Dumbbell Triceps Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Triceps Pushdowns (Rope attachment)"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_6_workout_4_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Lat Pulldown"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Barbell Dead Lift"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Reverse Grip Bent Over Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated V-Bar Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 25,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Crunch"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Rotation Crunch"
+                                                                }
+                                                                ]
+                                       }
+                                       ]
+                         },
+                         {
+                         "name": "trainingProgramm_7_name",
+                         "description": "trainingProgramm_7_description",
+                         "type": "Bodybuilding",
+                         "level": "Advanced",
+                         "repetitions": 24,
+                         "programId": "paid005",
+                         "free": 0,
+                         "trainings": [
+                                       {
+                                       "name": "trainingProgramm_7_workout_1_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Wide Grip Pull Up"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Barbell Dead Lift"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Reverse Grip Bent Over Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated V-Bar Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Ab Crunch Machine"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 25,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Crunch"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Side Dumbbell Bend"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_7_workout_2_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Dumbbell Incline Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Dumbbell Incline Bench Flyes"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Butterfly Machine"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 2
+                                                                },
+                                                                "exerciseName": "Dumbbell Pullover"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_7_workout_3_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Barbell Squat"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Seated Leg Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Lying Leg Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Leg Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Calf Press Machine"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_7_workout_4_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Seated Barbell Military Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "One Arm Lateral Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "One Arm Dumbbell Front Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Dumbbell Shrug"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 20,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Cable Crunch"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Hanging Leg Raise"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_7_workout_5_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Reverse Grip EZ-Barbell Preacher Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Alternate Seated Biceps Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Overhead Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Smith Machine Narrow Grip Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Lying EZ-Barbell Triceps Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Triceps Pushdowns (Rope attachment)"
+                                                                }
+                                                                ]
+                                       }
+                                       ]
+                         },
+                         {
+                         "name": "trainingProgramm_10_name",
+                         "description": "trainingProgramm_10_description",
+                         "type": "Fitness",
+                         "level": "Beginner",
+                         "repetitions": 12,
+                         "programId": "paid010",
+                         "free": 0,
+                         "trainings": [
+                                       {
+                                       "name": "trainingProgramm_10_workout_1_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Ab-Bench Crunch"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Hyperextension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Incline Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Dumbbell Flyes"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Bench Push Ups"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Arnold Dumbbell Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Lying Dumbbell Rear Lateral Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Cable Upright Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Side Lateral Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Lying EZ-Barbell Triceps Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 2
+                                                                },
+                                                                "exerciseName": "Reverse Grip Cable Triceps Pushdowns"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 2
+                                                                },
+                                                                "exerciseName": "Seated Leg Curl"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_10_workout_2_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Hyperextension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Cross-Body Crunch"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Leg Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Lying Leg Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Leg Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 2
+                                                                },
+                                                                "exerciseName": "Wide Grip Pull Up"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Lat Pulldown"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Barbell Rear Delt Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Reverse Grip Bent Over Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Lying Incline Dumbbell Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Dumbbell Biceps Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Preacher Curl with Machine"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "EZ-Barbell Biceps Curl"
+                                                                }
+                                                                ]
+                                       }
+                                       ]
+                         },
+                         {
+                         "name": "trainingProgramm_11_name",
+                         "description": "trainingProgramm_11_description",
+                         "type": "Bodybuilding",
+                         "level": "Intermediate",
+                         "repetitions": 12,
+                         "programId": "paid011",
+                         "free": 0,
+                         "trainings": [
+                                       {
+                                       "name": "trainingProgramm_11_workout_1_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Lat Pulldown"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Narrow Parallel Grip Chin Ups"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "One Arm Seated Cable Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Barbell Dead Lift"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Ab Crunch Machine"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 16,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Leg Raises On Parallel Bars"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_11_workout_2_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Dumbbell Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Smith Machine Incline Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Standing Bottom Cable Flys"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Smith Machine Shoulder Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Side Lateral Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Front Dumbbell Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Barbell Behind The Back Shrug"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_11_workout_3_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Front Barbell Squat"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Seated Leg Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Leg Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Calf Press Machine"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Reverse Grip EZ-Barbell Preacher Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Standing One Arm Biceps Cable Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Lying EZ-Barbell Triceps Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "One Arm Dumbbell Triceps Extension"
+                                                                }
+                                                                ]
+                                       }
+                                       ]
+                         },
+                         {
+                         "name": "trainingProgramm_12_name",
+                         "description": "trainingProgramm_12_description",
+                         "type": "Bodybuilding",
+                         "level": "Intermediate",
+                         "repetitions": 12,
+                         "programId": "paid012",
+                         "free": 0,
+                         "trainings": [
+                                       {
+                                       "name": "trainingProgramm_12_workout_1_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Super-Incline Machine Chest Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Incline Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Wide Dips"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Flat Cable Chest Flyes"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Lying EZ-Barbell Triceps Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Seated Bent Over One Arm Dumbbell Triceps Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Ab-Bench Crunch"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Knee Raise On Parallel Bars"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_12_workout_2_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Hammer Grip Pull Up"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Lat Pulldown"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Narrow Grip Lat Pulldown"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Barbell Rear Delt Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Barbell Dead Lift"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Barbell Biceps Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Preacher Curl with Machine"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Power Roller Crunch"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Rotation Crunch"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_12_workout_3_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Barbell Squat"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Seated Leg Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Seated Leg Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Calf Press Machine"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Seated Dumbbell Shoulder Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Side Lateral Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Dumbbell Upright Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Machine Reverse Grip Butterfly"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Dumbbell Shrug"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Cross-Body Crunch"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 6,
+                                                                "defaultRestTime": 60,
+                                                                "defaultSets": 6
+                                                                },
+                                                                "exerciseName": "Incline Bench Side Bend"
+                                                                }
+                                                                ]
+                                       }
+                                       ]
+                         },
+                         {
+                         "name": "trainingProgramm_13_name",
+                         "description": "trainingProgramm_13_description",
+                         "type": "Bodybuilding",
+                         "level": "Intermediate",
+                         "repetitions": 24,
+                         "programId": "paid013",
+                         "free": 0,
+                         "trainings": [
+                                       {
+                                       "name": "trainingProgramm_13_workout_1_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Dumbbell Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Dumbbell Flyes"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Incline Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Narrow Grip Bench Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 2
+                                                                },
+                                                                "exerciseName": "Barbell Incline Triceps Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 2
+                                                                },
+                                                                "exerciseName": "Cable Triceps Extension With Bar"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_13_workout_2_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Wide Grip Pull Up"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Rear Delts Dumbbell Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Standing Cable Row"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "EZ-Barbell Biceps Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 2
+                                                                },
+                                                                "exerciseName": "Barbell Biceps Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 2
+                                                                },
+                                                                "exerciseName": "Concentration Biceps Curl"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Ab Crunch Machine"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_13_workout_3_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Barbell Squat"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Leg Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Seated Leg Extension"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Barbell Dead Lift"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 12,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Lying Leg Curl"
+                                                                }
+                                                                ]
+                                       },
+                                       {
+                                       "name": "trainingProgramm_13_workout_4_name",
+                                       "description": "",
+                                       "exerciseMetaMappings": [
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 8,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Arnold Dumbbell Press"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Seated Side Lateral Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 3
+                                                                },
+                                                                "exerciseName": "Lying Dumbbell Rear Lateral Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 10,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Dumbbell Shrug"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Smith Machine Calf Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Seated Calf Raise"
+                                                                },
+                                                                {
+                                                                "exerciseMeta": {
+                                                                "defaultRepetitions": 15,
+                                                                "defaultRestTime": 120,
+                                                                "defaultSets": 4
+                                                                },
+                                                                "exerciseName": "Ab Crunch Machine"
+                                                                }
+                                                                ]
+                                       }
+                                       ]
+                         }
+                         ]
+}

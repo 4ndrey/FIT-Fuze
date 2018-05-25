@@ -30,6 +30,8 @@
 		767ADD2620B8A3CA00877BD5 /* PrimaryMuscleGroups.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767ADD2420B8A3C900877BD5 /* PrimaryMuscleGroups.xcassets */; };
 		767ADD2720B8A3CA00877BD5 /* SecondaryMusleGroups.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767ADD2520B8A3CA00877BD5 /* SecondaryMusleGroups.xcassets */; };
 		767ADD2A20B8A47A00877BD5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 767ADD2920B8A47A00877BD5 /* Localizable.strings */; };
+		767ADD3420B8AAC600877BD5 /* exercises.json in Resources */ = {isa = PBXBuildFile; fileRef = 767ADD3220B8AAC600877BD5 /* exercises.json */; };
+		767ADD3520B8AAC600877BD5 /* program.json in Resources */ = {isa = PBXBuildFile; fileRef = 767ADD3320B8AAC600877BD5 /* program.json */; };
 		AF2B786B101D210A3F6DFE66 /* libPods-FIT Fuze.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EEE69932F1AF2FD86811 /* libPods-FIT Fuze.a */; };
 /* End PBXBuildFile section */
 
@@ -124,6 +126,8 @@
 		767ADD2420B8A3C900877BD5 /* PrimaryMuscleGroups.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PrimaryMuscleGroups.xcassets; sourceTree = "<group>"; };
 		767ADD2520B8A3CA00877BD5 /* SecondaryMusleGroups.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SecondaryMusleGroups.xcassets; sourceTree = "<group>"; };
 		767ADD2920B8A47A00877BD5 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		767ADD3220B8AAC600877BD5 /* exercises.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercises.json; sourceTree = "<group>"; };
+		767ADD3320B8AAC600877BD5 /* program.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = program.json; sourceTree = "<group>"; };
 		9D56EEE69932F1AF2FD86811 /* libPods-FIT Fuze.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FIT Fuze.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -213,6 +217,7 @@
 		767ADC0C20B8A29E00877BD5 /* FIT Fuze */ = {
 			isa = PBXGroup;
 			children = (
+				767ADD2D20B8AA6100877BD5 /* Data */,
 				767ADD2C20B8A85F00877BD5 /* Storyboards */,
 				767ADD2B20B8A85300877BD5 /* Model */,
 				767ADD2820B8A3CC00877BD5 /* Assets */,
@@ -302,6 +307,15 @@
 				767ADC1620B8A29E00877BD5 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		767ADD2D20B8AA6100877BD5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				767ADD3220B8AAC600877BD5 /* exercises.json */,
+				767ADD3320B8AAC600877BD5 /* program.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -460,8 +474,10 @@
 				767ADD2A20B8A47A00877BD5 /* Localizable.strings in Resources */,
 				767ADD2620B8A3CA00877BD5 /* PrimaryMuscleGroups.xcassets in Resources */,
 				767ADD2720B8A3CA00877BD5 /* SecondaryMusleGroups.xcassets in Resources */,
+				767ADD3520B8AAC600877BD5 /* program.json in Resources */,
 				767ADC1520B8A29E00877BD5 /* Assets.xcassets in Resources */,
 				767ADC1320B8A29E00877BD5 /* Main.storyboard in Resources */,
+				767ADD3420B8AAC600877BD5 /* exercises.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
