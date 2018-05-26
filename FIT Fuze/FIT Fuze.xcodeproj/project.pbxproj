@@ -128,6 +128,7 @@
 		767ADD2920B8A47A00877BD5 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		767ADD3220B8AAC600877BD5 /* exercises.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercises.json; sourceTree = "<group>"; };
 		767ADD3320B8AAC600877BD5 /* program.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = program.json; sourceTree = "<group>"; };
+		76DFC0A520B9CF13007C8DA9 /* FIT Fuze.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FIT Fuze.entitlements"; sourceTree = "<group>"; };
 		9D56EEE69932F1AF2FD86811 /* libPods-FIT Fuze.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FIT Fuze.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -217,6 +218,7 @@
 		767ADC0C20B8A29E00877BD5 /* FIT Fuze */ = {
 			isa = PBXGroup;
 			children = (
+				76DFC0A520B9CF13007C8DA9 /* FIT Fuze.entitlements */,
 				767ADD2D20B8AA6100877BD5 /* Data */,
 				767ADD2C20B8A85F00877BD5 /* Storyboards */,
 				767ADD2B20B8A85300877BD5 /* Model */,
@@ -424,6 +426,11 @@
 				TargetAttributes = {
 					767ADC0920B8A29E00877BD5 = {
 						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					767ADC1D20B8A29F00877BD5 = {
 						CreatedOnToolsVersion = 9.3.1;
@@ -830,15 +837,16 @@
 			baseConfigurationReference = 191118EFBEE3CA1F76627CFE /* Pods-FIT Fuze.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FIT Fuze/FIT Fuze.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PB9892SWY3;
+				DEVELOPMENT_TEAM = J8NW6SD29Q;
 				INFOPLIST_FILE = "FIT Fuze/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FITFuze.pro.FIT-Fuze";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FITFuze.pro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -850,15 +858,16 @@
 			baseConfigurationReference = 5F3488DA8B25CDE3A14F59C6 /* Pods-FIT Fuze.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FIT Fuze/FIT Fuze.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PB9892SWY3;
+				DEVELOPMENT_TEAM = J8NW6SD29Q;
 				INFOPLIST_FILE = "FIT Fuze/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FITFuze.pro.FIT-Fuze";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FITFuze.pro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
