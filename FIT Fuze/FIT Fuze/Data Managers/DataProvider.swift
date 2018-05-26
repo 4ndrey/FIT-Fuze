@@ -13,7 +13,7 @@ class DataProvider {
     
     func currentProgram() -> TrainingPlan {
         // no logic here so far
-        return TrainingPlan()
+        return TrainingPlan.empty
     }
     
     func todayWorkoutIndex() -> Int {

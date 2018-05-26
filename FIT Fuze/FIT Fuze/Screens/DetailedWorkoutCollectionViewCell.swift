@@ -47,8 +47,8 @@ class DetailedWorkoutCollectionViewCell: UICollectionViewCell {
                           UIImage(named: "8")!]
         
         titleLabel.text = NSLocalizedString(workout.name, comment: "")
-        doneLabel.text = "DONE: \(workout.timesDone) OF \(plan.weeksCount)"
-        
+//        doneLabel.text = "DONE: \(workout.timesDone) OF \(plan.weeksCount)"
+
         imagesCollectionView.reloadData()
     }
 }
