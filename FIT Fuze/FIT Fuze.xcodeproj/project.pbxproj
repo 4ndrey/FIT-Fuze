@@ -32,7 +32,11 @@
 		767ADD2A20B8A47A00877BD5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 767ADD2920B8A47A00877BD5 /* Localizable.strings */; };
 		767ADD3420B8AAC600877BD5 /* exercises.json in Resources */ = {isa = PBXBuildFile; fileRef = 767ADD3220B8AAC600877BD5 /* exercises.json */; };
 		767ADD3520B8AAC600877BD5 /* program.json in Resources */ = {isa = PBXBuildFile; fileRef = 767ADD3320B8AAC600877BD5 /* program.json */; };
-		AF2B786B101D210A3F6DFE66 /* libPods-FIT Fuze.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56EEE69932F1AF2FD86811 /* libPods-FIT Fuze.a */; };
+		76DFC0A720B9D66B007C8DA9 /* TrainingPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DFC0A620B9D66B007C8DA9 /* TrainingPlan.swift */; };
+		76DFC0AA20B9D6E9007C8DA9 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DFC0A920B9D6E9007C8DA9 /* DataProvider.swift */; };
+		76DFC0AC20B9D951007C8DA9 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DFC0AB20B9D951007C8DA9 /* Workout.swift */; };
+		76DFC0AE20B9DCB4007C8DA9 /* ExerciseImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DFC0AD20B9DCB4007C8DA9 /* ExerciseImages.xcassets */; };
+		C4B63DB02B4413B0923D4DCD /* Pods_FIT_Fuze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EB3F455294D0CA5FDF1CF1 /* Pods_FIT_Fuze.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,7 +133,11 @@
 		767ADD3220B8AAC600877BD5 /* exercises.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercises.json; sourceTree = "<group>"; };
 		767ADD3320B8AAC600877BD5 /* program.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = program.json; sourceTree = "<group>"; };
 		76DFC0A520B9CF13007C8DA9 /* FIT Fuze.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FIT Fuze.entitlements"; sourceTree = "<group>"; };
-		9D56EEE69932F1AF2FD86811 /* libPods-FIT Fuze.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FIT Fuze.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DFC0A620B9D66B007C8DA9 /* TrainingPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPlan.swift; sourceTree = "<group>"; };
+		76DFC0A920B9D6E9007C8DA9 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		76DFC0AB20B9D951007C8DA9 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		76DFC0AD20B9DCB4007C8DA9 /* ExerciseImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ExerciseImages.xcassets; sourceTree = "<group>"; };
+		A6EB3F455294D0CA5FDF1CF1 /* Pods_FIT_Fuze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIT_Fuze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF2B786B101D210A3F6DFE66 /* libPods-FIT Fuze.a in Frameworks */,
+				C4B63DB02B4413B0923D4DCD /* Pods_FIT_Fuze.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +183,7 @@
 		18AF765BA54BDB643DEDC7B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D56EEE69932F1AF2FD86811 /* libPods-FIT Fuze.a */,
+				A6EB3F455294D0CA5FDF1CF1 /* Pods_FIT_Fuze.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -218,6 +226,7 @@
 		767ADC0C20B8A29E00877BD5 /* FIT Fuze */ = {
 			isa = PBXGroup;
 			children = (
+				76DFC0A820B9D6C4007C8DA9 /* Data Managers */,
 				76DFC0A520B9CF13007C8DA9 /* FIT Fuze.entitlements */,
 				767ADD2D20B8AA6100877BD5 /* Data */,
 				767ADD2C20B8A85F00877BD5 /* Storyboards */,
@@ -291,6 +300,7 @@
 				767ADC1420B8A29E00877BD5 /* Assets.xcassets */,
 				767ADD2420B8A3C900877BD5 /* PrimaryMuscleGroups.xcassets */,
 				767ADD2520B8A3CA00877BD5 /* SecondaryMusleGroups.xcassets */,
+				76DFC0AD20B9DCB4007C8DA9 /* ExerciseImages.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -298,6 +308,8 @@
 		767ADD2B20B8A85300877BD5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				76DFC0A620B9D66B007C8DA9 /* TrainingPlan.swift */,
+				76DFC0AB20B9D951007C8DA9 /* Workout.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -320,6 +332,14 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		76DFC0A820B9D6C4007C8DA9 /* Data Managers */ = {
+			isa = PBXGroup;
+			children = (
+				76DFC0A920B9D6E9007C8DA9 /* DataProvider.swift */,
+			);
+			path = "Data Managers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -332,6 +352,7 @@
 				767ADC0720B8A29E00877BD5 /* Frameworks */,
 				767ADC0820B8A29E00877BD5 /* Resources */,
 				767ADC5B20B8A2A000877BD5 /* Embed Watch Content */,
+				AAA9D59CB0F4A3AB741FEFA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -477,6 +498,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76DFC0AE20B9DCB4007C8DA9 /* ExerciseImages.xcassets in Resources */,
 				767ADC1820B8A29E00877BD5 /* LaunchScreen.storyboard in Resources */,
 				767ADD2A20B8A47A00877BD5 /* Localizable.strings in Resources */,
 				767ADD2620B8A3CA00877BD5 /* PrimaryMuscleGroups.xcassets in Resources */,
@@ -522,6 +544,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		AAA9D59CB0F4A3AB741FEFA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FIT Fuze/Pods-FIT Fuze-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagicalRecord.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIT Fuze/Pods-FIT Fuze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EC1704E834FD6727086A7E11 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -549,9 +591,12 @@
 			files = (
 				767ADD2120B8A2EE00877BD5 /* DetailedWorkoutCollectionViewCell.swift in Sources */,
 				767ADD2320B8A2EE00877BD5 /* MenuViewController.swift in Sources */,
+				76DFC0AA20B9D6E9007C8DA9 /* DataProvider.swift in Sources */,
 				767ADD2220B8A2EE00877BD5 /* CurrentPlanViewController.swift in Sources */,
 				767ADC1020B8A29E00877BD5 /* ViewController.swift in Sources */,
+				76DFC0AC20B9D951007C8DA9 /* Workout.swift in Sources */,
 				767ADC0E20B8A29E00877BD5 /* AppDelegate.swift in Sources */,
+				76DFC0A720B9D66B007C8DA9 /* TrainingPlan.swift in Sources */,
 				767ADD2020B8A2EE00877BD5 /* SimpleImageCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -755,14 +800,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PB9892SWY3;
+				DEVELOPMENT_TEAM = J8NW6SD29Q;
 				INFOPLIST_FILE = "FIT Fuze WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FITFuze.pro.FIT-Fuze.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FITFuze.pro.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -777,14 +822,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PB9892SWY3;
+				DEVELOPMENT_TEAM = J8NW6SD29Q;
 				INFOPLIST_FILE = "FIT Fuze WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FITFuze.pro.FIT-Fuze.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FITFuze.pro.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -800,10 +845,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PB9892SWY3;
+				DEVELOPMENT_TEAM = J8NW6SD29Q;
 				IBSC_MODULE = FIT_Fuze_WatchKit_Extension;
 				INFOPLIST_FILE = "FIT Fuze WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FITFuze.pro.FIT-Fuze.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FITFuze.pro.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -819,10 +864,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PB9892SWY3;
+				DEVELOPMENT_TEAM = J8NW6SD29Q;
 				IBSC_MODULE = FIT_Fuze_WatchKit_Extension;
 				INFOPLIST_FILE = "FIT Fuze WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FITFuze.pro.FIT-Fuze.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FITFuze.pro.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -880,7 +925,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PB9892SWY3;
+				DEVELOPMENT_TEAM = J8NW6SD29Q;
 				INFOPLIST_FILE = "FIT FuzeTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -901,7 +946,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PB9892SWY3;
+				DEVELOPMENT_TEAM = J8NW6SD29Q;
 				INFOPLIST_FILE = "FIT FuzeTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -921,7 +966,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PB9892SWY3;
+				DEVELOPMENT_TEAM = J8NW6SD29Q;
 				INFOPLIST_FILE = "FIT FuzeUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -941,7 +986,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PB9892SWY3;
+				DEVELOPMENT_TEAM = J8NW6SD29Q;
 				INFOPLIST_FILE = "FIT FuzeUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
