@@ -7,7 +7,9 @@
 //
 
 struct Workout {
-    let id: String
+    typealias Id = String
+
+    let id: Id
     let name: String
-    let exercises: [Exercise]
+    var exercises: [Exercise]
 }

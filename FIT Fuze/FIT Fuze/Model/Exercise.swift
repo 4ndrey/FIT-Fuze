@@ -7,9 +7,10 @@
 //
 
 struct Exercise {
-    let id: String
+    typealias Id = String
+
+    let id: Id
     let name: String
-    let sets: Int
-    let repetions: Int
-    let restTime: Int
+    let primaryMuscles: [String]
+    let secondaryMuscles: [String]
 }

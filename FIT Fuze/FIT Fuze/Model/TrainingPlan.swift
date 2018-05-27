@@ -7,7 +7,9 @@
 //
 
 struct TrainingPlan {
-    let id: String
+    typealias Id = String
+
+    let id: Id
     let name: String
     let description: String
     let type: String

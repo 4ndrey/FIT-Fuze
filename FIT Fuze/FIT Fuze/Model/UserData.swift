@@ -7,7 +7,7 @@
 //
 
 struct UserData {
-    var selectedPlanId: String
-    var weeksCount: Int
-    var workoutStats: [WorkoutInfo]
+    var selectedPlanId: TrainingPlan.Id      // current traning plan
+    var weeks: Int                           // training weeks count
+    var records: [WorkoutRecord]             // info about Workouts execution
 }
