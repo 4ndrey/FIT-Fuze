@@ -11,5 +11,5 @@ struct Workout {
 
     let id: Id
     let name: String
-    var exercises: [Exercise]
+    var items: [WorkoutItem]
 }
