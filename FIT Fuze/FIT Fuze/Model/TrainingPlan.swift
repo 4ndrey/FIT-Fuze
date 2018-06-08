@@ -6,7 +6,7 @@
 //  Copyright © 2018 FIT. All rights reserved.
 //
 
-struct TrainingPlan {
+struct TrainingPlan: Codable {
     typealias Id = String
 
     let id: Id
@@ -21,6 +21,6 @@ struct TrainingPlan {
 
 extension TrainingPlan {
     static var empty: TrainingPlan {
-        return TrainingPlan(id: "", name: "", description: "", type: "", level: "", defaultWeeks: 0, isFree: true, workouts: [])
+        return TrainingPlan(id: "empty", name: "", description: "", type: "", level: "", defaultWeeks: 0, isFree: true, workouts: [])
     }
 }

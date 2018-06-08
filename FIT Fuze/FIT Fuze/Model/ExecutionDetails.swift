@@ -6,8 +6,8 @@
 //  Copyright © 2018 FIT. All rights reserved.
 //
 
-struct ExecutionDetails {
-    enum State {
+struct ExecutionDetails: Codable {
+    enum State: String, Codable {
         case done
         case changed
         case skipped

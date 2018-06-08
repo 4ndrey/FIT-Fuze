@@ -6,7 +6,7 @@
 //  Copyright © 2018 FIT. All rights reserved.
 //
 
-class WorkoutItem {
+class WorkoutItem: Codable {
     typealias Id = String
 
     let id: Id
