@@ -6,11 +6,18 @@
 //  Copyright © 2018 FIT. All rights reserved.
 //
 
-struct WorkoutItem {
+class WorkoutItem {
     typealias Id = String
 
     let id: Id
     let exerciseId: Exercise.Id
     var executions: [ExecutionDetails]
-    let nextItem: Any? // WorkoutItem
+    let nextItem: WorkoutItem?
+
+    init(id: Id, exerciseId: Exercise.Id, executions: [ExecutionDetails], nextItem: WorkoutItem? = nil) {
+        self.id = id
+        self.exerciseId = exerciseId
+        self.executions = executions
+        self.nextItem = nextItem
+    }
 }
