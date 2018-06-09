@@ -6,8 +6,6 @@
 //  Copyright © 2018 FIT. All rights reserved.
 //
 
-import Foundation
-
 class TrainingPlanStore: Store {
     typealias T = TrainingPlan
     static let shared = TrainingPlanStore()

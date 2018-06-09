@@ -16,15 +16,18 @@ struct TrainingPlan: Codable {
     let level: String
     let defaultWeeks: Int?
     let isFree: Bool
-    let workoutIds: [Workout.Id]
+    let workouts: [Workout]
 }
 
 extension TrainingPlan {
     static var empty: TrainingPlan {
-        return TrainingPlan(id: "empty", name: "", description: "", type: "", level: "", defaultWeeks: 0, isFree: true, workoutIds: [])
-    }
-
-    var workouts: [Workout] {
-        return workoutIds.compactMap { WorkoutStore.shared.get($0) }
+        return TrainingPlan(id: "empty",
+                            name: "",
+                            description: "",
+                            type: "",
+                            level: "",
+                            defaultWeeks: 0,
+                            isFree: true,
+                            workouts: [])
     }
 }

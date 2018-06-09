@@ -10,6 +10,7 @@ import Foundation
 
 protocol Store {
     associatedtype T: Codable
+    
     func get(_ id: String) -> T?
     func save(_ object: T, id: String)
     func remove(_ id: String)
