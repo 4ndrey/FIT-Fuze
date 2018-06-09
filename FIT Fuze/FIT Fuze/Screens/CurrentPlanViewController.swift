@@ -10,8 +10,8 @@ import UIKit
 
 class CurrentPlanViewController: UIViewController {
 
-    let managedContext = NSManagedObjectContext.mr_default()
-    var currentPlan: TrainingProgram?
+    //let managedContext = NSManagedObjectContext.mr_default()
+    var currentPlan: TrainingPlan?
     var todaysWorkoutIndex = 0
     @IBOutlet var collection: UICollectionView!
     @IBOutlet var welcomeLabel: UILabel!
@@ -21,40 +21,15 @@ class CurrentPlanViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        showWelcomeMessage()
-
-        if let uri = UserDefaults.standard.url(forKey: "currentTrainingplan"),
-            let objectID = managedContext?.persistentStoreCoordinator!.managedObjectID(forURIRepresentation: uri) {
-            currentPlan = managedContext?.object(with: objectID) as? TrainingProgram
-            todaysWorkoutIndex = getTodaysWorkoutIndex()
-        }
-
-        let provider = ContentProvider()
-        currentPlan = provider.getFreeTrainingPrograms()[1]
         
-        if currentPlan != nil {
-            hideWelcomeMessage()
+        currentPlan = DataProvider.shared.currentProgram()
+        todaysWorkoutIndex = DataProvider.shared.todayWorkoutIndex()
+        
+        if currentPlan == nil {
+            showWelcomeMessage()
         }
     }
-    
-    func getTodaysWorkoutIndex() -> Int {
-        guard let plan = currentPlan,
-            let workouts = plan.trainings,
-            let maxRepetitionNumber = currentPlan?.workoutRepetition?.intValue else { return 0 }
-        var currentMin = 1000
-        var currentIndex = 0
-        for i in (workouts.count-1)...0 {
-            let workout = workouts[i] as! Training
-            let currentRepValue = (workout.repetitionCounter?.intValue)!
-            if currentRepValue < currentMin {
-                currentIndex = i
-                currentMin = currentRepValue
-            }
-        }
-        
-        // [[CurrentFitManager sharedManager] setCurrentWorkoutIndex:self.todayBannerIndex];
-        return currentIndex
-    }
+
     
     func showWelcomeMessage() {
         self.view.bringSubview(toFront: welcomeLabel)
@@ -68,10 +43,11 @@ class CurrentPlanViewController: UIViewController {
         welcomeButton.titleLabel?.textAlignment = .center
         let title = NSLocalizedString("Welcome_to_FITFuze_text", comment: "nil")
         let range = (title as NSString).range(of:"FIT Fuze")
-        let boldFont = UIFont.systemFont(ofSize: 30.0, weight: .semibold)
-        let paramsDict = [NSFontAttributeName: boldFont]
         let attributedTitle = NSMutableAttributedString(string: title)
-        attributedTitle.setAttributes(paramsDict, range: range)
+        let textAttributes: [NSAttributedStringKey: Any] = [
+            .font : UIFont.systemFont(ofSize: 30.0, weight: .semibold)
+        ]
+        attributedTitle.addAttributes(textAttributes, range: range)
         welcomeLabel.attributedText = attributedTitle
     }
     
@@ -88,17 +64,16 @@ class CurrentPlanViewController: UIViewController {
 
 extension CurrentPlanViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return currentPlan?.trainings?.count ?? 0
+        return currentPlan?.workouts.count ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "workoutCellID", for: indexPath)
             as? DetailedWorkoutCollectionViewCell,
-            let workouts = currentPlan?.trainings,
             let plan = currentPlan,
-            let workout = workouts[indexPath.row] as? Training {
-            cell.setup(with: workout, and: plan)
+            let workout = plan.workouts[indexPath.row] as? Workout {
+            cell.setup(for: workout, and: plan)
             cell.todayBanner.isHidden = todaysWorkoutIndex != indexPath.row
             return cell
         }

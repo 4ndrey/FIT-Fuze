@@ -36,23 +36,19 @@ class DetailedWorkoutCollectionViewCell: UICollectionViewCell {
         self.layer.shadowPath = UIBezierPath(roundedRect: self.bounds, cornerRadius: self.contentView.layer.cornerRadius).cgPath
     }
     
-    func setup(with workout: Training, and plan: TrainingProgram) {
-        guard let mappings = workout.exerciseMetaMappings?.array as? [ExerciseMetaMapping] else {
-            return
-        }
+    func setup(for workout: Workout, and plan: TrainingPlan) {
+        exerciseImages = [UIImage(named: "1")!,
+                          UIImage(named: "2")!,
+                          UIImage(named: "3")!,
+                          UIImage(named: "4")!,
+                          UIImage(named: "5")!,
+                          UIImage(named: "6")!,
+                          UIImage(named: "7")!,
+                          UIImage(named: "8")!]
         
-        exerciseImages = mappings.map {
-            let imgWrapper = $0.exercise?.images?.firstObject as! Images
-            let imgData = imgWrapper.image!
-            return UIImage(data: imgData)!
-        }
-        
-        titleLabel.text = NSLocalizedString(workout.name!, comment: "")
-        if let doneValue = workout.repetitionCounter?.intValue,
-            let todoValue = plan.workoutRepetition?.intValue {
-            doneLabel.text = "DONE: \(doneValue) OF \(todoValue)"
-        }
-        
+        titleLabel.text = NSLocalizedString(workout.name, comment: "")
+//        doneLabel.text = "DONE: \(workout.timesDone) OF \(plan.weeksCount)"
+
         imagesCollectionView.reloadData()
     }
 }
