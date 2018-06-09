@@ -6,7 +6,7 @@
 //  Copyright © 2018 FIT. All rights reserved.
 //
 
-struct UsersPlan {
+struct UsersPlan: Codable {
     var planId: TrainingPlan.Id
     var weeks: Int
     var records: [WorkoutExecutionHistory]    

@@ -10,4 +10,5 @@ import Foundation
 
 class TrainingPlanStore: Store {
     typealias T = TrainingPlan
+    static let shared = TrainingPlanStore()
 }

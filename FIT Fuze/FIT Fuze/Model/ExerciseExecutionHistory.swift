@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct ExerciseExecutionHistory {
+struct ExerciseExecutionHistory: Codable {
     let id: Exercise.Id
     let date: Date
     let executions: [ExecutionDetails]

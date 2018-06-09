@@ -6,18 +6,11 @@
 //  Copyright © 2018 FIT. All rights reserved.
 //
 
-class WorkoutItem: Codable {
+struct WorkoutItem: Codable {
     typealias Id = String
 
     let id: Id
     let exerciseId: Exercise.Id
     var executions: [ExecutionDetails]
-    let nextItem: WorkoutItem?
-
-    init(id: Id, exerciseId: Exercise.Id, executions: [ExecutionDetails], nextItem: WorkoutItem? = nil) {
-        self.id = id
-        self.exerciseId = exerciseId
-        self.executions = executions
-        self.nextItem = nextItem
-    }
+    let nextItemId: WorkoutItem.Id?
 }

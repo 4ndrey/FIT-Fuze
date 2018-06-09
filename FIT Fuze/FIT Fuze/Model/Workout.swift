@@ -11,5 +11,11 @@ struct Workout: Codable {
 
     let id: Id
     let name: String
-    var items: [WorkoutItem]
+    var itemsIds: [WorkoutItem.Id]
+}
+
+extension Workout {
+    var items: [WorkoutItem] {
+        return itemsIds.compactMap { WorkoutItemStore.shared.get($0) }
+    }
 }

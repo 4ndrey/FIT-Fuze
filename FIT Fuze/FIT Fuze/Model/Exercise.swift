@@ -6,7 +6,7 @@
 //  Copyright © 2018 FIT. All rights reserved.
 //
 
-struct Exercise {
+struct Exercise: Codable {
     typealias Id = String
 
     let id: Id

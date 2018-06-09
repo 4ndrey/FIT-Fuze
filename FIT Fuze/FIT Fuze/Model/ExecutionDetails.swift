@@ -13,7 +13,7 @@ struct ExecutionDetails: Codable {
         case skipped
     }
 
-    let weight: Double
-    let reps: Int
-    let state: State
+    var weight: Double
+    var reps: Int
+    var state: State
 }

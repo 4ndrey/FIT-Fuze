@@ -6,7 +6,7 @@
 //  Copyright © 2018 FIT. All rights reserved.
 //
 
-struct WorkoutExecutionHistory {
+struct WorkoutExecutionHistory: Codable {
     let id: Workout.Id
     let repsDone: Int
     let records: [ExerciseExecutionHistory]

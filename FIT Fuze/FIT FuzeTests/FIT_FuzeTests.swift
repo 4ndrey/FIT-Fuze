@@ -25,7 +25,11 @@ class FIT_FuzeTests: XCTestCase {
         // Given
         let store = TrainingPlanStore()
         let plan = TrainingPlan.empty
+
+        // Try
         store.save(plan, id: "0")
+
+        // Verify
         XCTAssert(store.get("0")!.id == plan.id)
     }
 

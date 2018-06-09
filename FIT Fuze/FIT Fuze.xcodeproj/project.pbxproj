@@ -45,6 +45,10 @@
 		C4B63DB02B4413B0923D4DCD /* Pods_FIT_Fuze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EB3F455294D0CA5FDF1CF1 /* Pods_FIT_Fuze.framework */; };
 		FDF1637B20CB13EB00745245 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF1637A20CB13EB00745245 /* Store.swift */; };
 		FDF1637D20CB160900745245 /* TrainingPlanStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF1637C20CB160900745245 /* TrainingPlanStore.swift */; };
+		FDF1637F20CC05CB00745245 /* WorkoutStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF1637E20CC05CB00745245 /* WorkoutStore.swift */; };
+		FDF1638120CC062200745245 /* ExerciseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF1638020CC062200745245 /* ExerciseStore.swift */; };
+		FDF1638320CC06F900745245 /* WorkoutItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF1638220CC06F900745245 /* WorkoutItemStore.swift */; };
+		FDF1638720CC096800745245 /* UserPlansStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF1638620CC096800745245 /* UserPlansStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +158,10 @@
 		A6EB3F455294D0CA5FDF1CF1 /* Pods_FIT_Fuze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIT_Fuze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF1637A20CB13EB00745245 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		FDF1637C20CB160900745245 /* TrainingPlanStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPlanStore.swift; sourceTree = "<group>"; };
+		FDF1637E20CC05CB00745245 /* WorkoutStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutStore.swift; sourceTree = "<group>"; };
+		FDF1638020CC062200745245 /* ExerciseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseStore.swift; sourceTree = "<group>"; };
+		FDF1638220CC06F900745245 /* WorkoutItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutItemStore.swift; sourceTree = "<group>"; };
+		FDF1638620CC096800745245 /* UserPlansStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPlansStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,6 +376,10 @@
 			children = (
 				FDF1637A20CB13EB00745245 /* Store.swift */,
 				FDF1637C20CB160900745245 /* TrainingPlanStore.swift */,
+				FDF1637E20CC05CB00745245 /* WorkoutStore.swift */,
+				FDF1638220CC06F900745245 /* WorkoutItemStore.swift */,
+				FDF1638020CC062200745245 /* ExerciseStore.swift */,
+				FDF1638620CC096800745245 /* UserPlansStore.swift */,
 			);
 			path = Storage;
 			sourceTree = "<group>";
@@ -621,12 +633,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF1638320CC06F900745245 /* WorkoutItemStore.swift in Sources */,
 				767ADD2120B8A2EE00877BD5 /* DetailedWorkoutCollectionViewCell.swift in Sources */,
 				767ADD2320B8A2EE00877BD5 /* MenuViewController.swift in Sources */,
 				76DFC0AA20B9D6E9007C8DA9 /* DataProvider.swift in Sources */,
+				FDF1637F20CC05CB00745245 /* WorkoutStore.swift in Sources */,
 				FDF1637B20CB13EB00745245 /* Store.swift in Sources */,
 				767ADD2220B8A2EE00877BD5 /* CurrentPlanViewController.swift in Sources */,
 				767ADC1020B8A29E00877BD5 /* ViewController.swift in Sources */,
+				FDF1638720CC096800745245 /* UserPlansStore.swift in Sources */,
 				FDF1637D20CB160900745245 /* TrainingPlanStore.swift in Sources */,
 				A14CF43C20C0910000F13F06 /* WorkoutItem.swift in Sources */,
 				A10E439F20BA0078008378EB /* UsersPlan.swift in Sources */,
@@ -638,6 +653,7 @@
 				76DFC0A720B9D66B007C8DA9 /* TrainingPlan.swift in Sources */,
 				767ADD2020B8A2EE00877BD5 /* SimpleImageCollectionViewCell.swift in Sources */,
 				A14CF43E20C091B200F13F06 /* ExecutionDetails.swift in Sources */,
+				FDF1638120CC062200745245 /* ExerciseStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
