@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// Typically to be used only once to covert old data format to relevant one
 class JSONConverter {
     class func convert() {
         // Convert training programs
@@ -22,8 +23,13 @@ class JSONConverter {
                                     var items = [WorkoutItem]()
                                     if let itemsDicts = workoutDict["exerciseMetaMappings"] as? [[String: Any]] {
                                         for itemDict in itemsDicts {
+                                            let metaDataDict = itemDict["exerciseMeta"] as! [String: Int]
+                                            let metaData = WorkoutItem.MetaData(defaultRepetitions: metaDataDict["defaultRepetitions"]!,
+                                                                                defaultRestTime: metaDataDict["defaultRestTime"]!,
+                                                                                defaultSets: metaDataDict["defaultSets"]!)
                                             let item = WorkoutItem(id: itemDict["exerciseName"] as! String,
                                                                    exerciseId: itemDict["exerciseName"] as! String,
+                                                                   metaData: metaData,
                                                                    executions: [],
                                                                    nextItem: nil)
                                             items.append(item)

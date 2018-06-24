@@ -10,6 +10,6 @@ struct Workout: Codable {
     typealias Id = String
 
     let id: Id
-    let name: String
+    let name: String 
     var items: [WorkoutItem]
 }

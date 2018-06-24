@@ -14,7 +14,7 @@ protocol Store {
     func get(_ id: String) -> T?
     func save(_ object: T, id: String)
     func remove(_ id: String)
-    func findAll(where: (T) -> Bool) -> [T]
+    func findAll(where predicate: (T) -> Bool) -> [T]
 }
 
 extension Store {
@@ -42,6 +42,7 @@ extension Store {
                     try FileManager.default.removeItem(at: url)
                 }
                 FileManager.default.createFile(atPath: url.path, contents: data, attributes: nil)
+//                print(url.path)
             } catch {
                 print(error.localizedDescription)
             }
@@ -60,12 +61,13 @@ extension Store {
         }
     }
 
-    func findAll(where: (T) -> Bool) -> [T] {
-        // 1. Iterate through all items
-        // 2. Check `where` closure for result
-        // 3. If `true` => add to resulting array, if `false` - skip it
-        // 4. Return resulting array
-        return []
+    func findAll(where handler: (T) -> Bool = { _ in true }) -> [T] {
+        guard let path = url(with: "")?.deletingLastPathComponent().path,
+              let fileNames = try? FileManager.default.contentsOfDirectory(atPath: path) else { return [] }
+
+        return fileNames
+            .compactMap { get($0.replacingOccurrences(of: ".json", with: "")) }
+            .filter(handler)
     }
 
     func url(with id: String) -> URL? {

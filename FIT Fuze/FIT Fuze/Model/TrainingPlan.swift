@@ -16,7 +16,7 @@ struct TrainingPlan: Codable {
     let level: String
     let defaultWeeks: Int?
     let isFree: Bool
-    let workouts: [Workout]
+    var workouts: [Workout]
 }
 
 extension TrainingPlan {
