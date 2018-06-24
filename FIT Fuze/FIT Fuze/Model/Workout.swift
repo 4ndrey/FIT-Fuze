@@ -6,10 +6,10 @@
 //  Copyright © 2018 FIT. All rights reserved.
 //
 
-import Foundation
+struct Workout: Codable {
+    typealias Id = String
 
-class Workout {
-    let name: String = "Nothing special - just placeholder"
-    let timesToDo: Int = 8
-    let timesDone: Int = 3
+    let id: Id
+    let name: String 
+    var items: [WorkoutItem]
 }

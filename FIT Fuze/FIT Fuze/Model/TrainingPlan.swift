@@ -6,9 +6,28 @@
 //  Copyright © 2018 FIT. All rights reserved.
 //
 
-import Foundation
+struct TrainingPlan: Codable {
+    typealias Id = String
 
-class TrainingPlan {
-    var workouts: [Workout] = [Workout(), Workout()]
-    var weeksCount: Int = 8
+    let id: Id
+    let name: String
+    let description: String
+    let type: String
+    let level: String
+    let defaultWeeks: Int?
+    let isFree: Bool
+    var workouts: [Workout]
+}
+
+extension TrainingPlan {
+    static var empty: TrainingPlan {
+        return TrainingPlan(id: "empty",
+                            name: "",
+                            description: "",
+                            type: "",
+                            level: "",
+                            defaultWeeks: 0,
+                            isFree: true,
+                            workouts: [])
+    }
 }

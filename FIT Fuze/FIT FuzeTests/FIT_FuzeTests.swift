@@ -13,24 +13,55 @@ class FIT_FuzeTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+
+        // Create model data from JSON
+        JSONConverter.convert()
     }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+
+    func testStores() {
+        // Given
+        let store = TrainingPlanStore()
+        let plan = TrainingPlan.empty
+
+        // Try
+        store.save(plan, id: "0")
+
+        // Verify
+        XCTAssert(store.get("0")!.id == plan.id)
+
+        // Clean
+        TrainingPlanStore.shared.remove("0")
     }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+    func testSearch() {
+        // Try
+        let plans = TrainingPlanStore.shared.findAll(where: { $0.isFree })
+
+        // Verify
+        XCTAssert(plans.count == 2)
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+
+    func testWorkoutModification() {
+        // Given
+        var plan = TrainingPlanStore.shared.get("free001")!
+        let workout = plan.workouts.first!
+        let item = workout.items.first!
+
+        // Try
+        item.executions = [ExecutionDetails(weight: 55, reps: 10, state: .done)]
+        TrainingPlanStore.shared.save(plan, id: plan.id)
+
+        // Verify
+        plan = TrainingPlanStore.shared.get("free001")!
+        XCTAssert(plan.workouts.first!.items.first!.executions.first!.weight == 55)
+        XCTAssert(plan.workouts.first!.items.first!.executions.first!.reps == 10)
+        XCTAssert(plan.workouts.first!.items.first!.executions.first!.state == .done)
+    }
+
+    func testPlansReading() {
+        measure {
+            _ = TrainingPlanStore.shared.findAll(where: { $0.name.range(of: "a") != nil })
         }
     }
-    
+
 }
