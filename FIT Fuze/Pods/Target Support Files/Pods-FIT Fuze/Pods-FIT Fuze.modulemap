@@ -1,6 +1,0 @@
-framework module Pods_FIT_Fuze {
-  umbrella header "Pods-FIT Fuze-umbrella.h"
-
-  export *
-  module * { export * }
-}
