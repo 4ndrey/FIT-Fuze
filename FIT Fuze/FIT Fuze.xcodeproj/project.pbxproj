@@ -45,6 +45,13 @@
 		A14CF44020C0928100F13F06 /* WorkoutExecutionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CF43F20C0928100F13F06 /* WorkoutExecutionHistory.swift */; };
 		A14CF44220C092E100F13F06 /* ExerciseExecutionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CF44120C092E100F13F06 /* ExerciseExecutionHistory.swift */; };
 		C4B63DB02B4413B0923D4DCD /* Pods_FIT_Fuze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EB3F455294D0CA5FDF1CF1 /* Pods_FIT_Fuze.framework */; };
+		FD42B933214D1EA50029EDF1 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42B932214D1EA50029EDF1 /* WorkoutViewController.swift */; };
+		FD9AB1A82164DFD600295342 /* ExerciseDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AB1A62164DFD600295342 /* ExerciseDescriptionViewController.swift */; };
+		FD9AB1A92164DFD600295342 /* ExerciseDescriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD9AB1A72164DFD600295342 /* ExerciseDescriptionViewController.xib */; };
+		FD9AB1B0216552E200295342 /* ExecutionControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AB1AE216552E200295342 /* ExecutionControlsViewController.swift */; };
+		FD9AB1B1216552E200295342 /* ExecutionControlsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD9AB1AF216552E200295342 /* ExecutionControlsViewController.xib */; };
+		FD9AB1B4216553AE00295342 /* ExecutionDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD9AB1B2216553AD00295342 /* ExecutionDetailsViewController.xib */; };
+		FD9AB1B5216553AE00295342 /* ExecutionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AB1B3216553AE00295342 /* ExecutionDetailsViewController.swift */; };
 		FDC41B9520DFA984009B2662 /* exercises.json in Resources */ = {isa = PBXBuildFile; fileRef = FDC41B9320DFA984009B2662 /* exercises.json */; };
 		FDC41B9620DFA984009B2662 /* program.json in Resources */ = {isa = PBXBuildFile; fileRef = FDC41B9420DFA984009B2662 /* program.json */; };
 		FDF1637B20CB13EB00745245 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF1637A20CB13EB00745245 /* Store.swift */; };
@@ -161,6 +168,13 @@
 		A14CF43F20C0928100F13F06 /* WorkoutExecutionHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutExecutionHistory.swift; sourceTree = "<group>"; };
 		A14CF44120C092E100F13F06 /* ExerciseExecutionHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseExecutionHistory.swift; sourceTree = "<group>"; };
 		A6EB3F455294D0CA5FDF1CF1 /* Pods_FIT_Fuze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIT_Fuze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD42B932214D1EA50029EDF1 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		FD9AB1A62164DFD600295342 /* ExerciseDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDescriptionViewController.swift; sourceTree = "<group>"; };
+		FD9AB1A72164DFD600295342 /* ExerciseDescriptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseDescriptionViewController.xib; sourceTree = "<group>"; };
+		FD9AB1AE216552E200295342 /* ExecutionControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionControlsViewController.swift; sourceTree = "<group>"; };
+		FD9AB1AF216552E200295342 /* ExecutionControlsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExecutionControlsViewController.xib; sourceTree = "<group>"; };
+		FD9AB1B2216553AD00295342 /* ExecutionDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExecutionDetailsViewController.xib; sourceTree = "<group>"; };
+		FD9AB1B3216553AE00295342 /* ExecutionDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExecutionDetailsViewController.swift; sourceTree = "<group>"; };
 		FDC41B9320DFA984009B2662 /* exercises.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercises.json; sourceTree = "<group>"; };
 		FDC41B9420DFA984009B2662 /* program.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = program.json; sourceTree = "<group>"; };
 		FDF1637A20CB13EB00745245 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
@@ -317,10 +331,18 @@
 		767ADD1B20B8A2DE00877BD5 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				FD9AB1A32164DB6700295342 /* Base */,
 				768AF23C21432A0E00ED84E0 /* StartViewController.swift */,
 				767ADD1E20B8A2EE00877BD5 /* CurrentPlanViewController.swift */,
 				767ADD1D20B8A2ED00877BD5 /* DetailedWorkoutCollectionViewCell.swift */,
 				767ADD1F20B8A2EE00877BD5 /* MenuViewController.swift */,
+				FD42B932214D1EA50029EDF1 /* WorkoutViewController.swift */,
+				FD9AB1A62164DFD600295342 /* ExerciseDescriptionViewController.swift */,
+				FD9AB1A72164DFD600295342 /* ExerciseDescriptionViewController.xib */,
+				FD9AB1B3216553AE00295342 /* ExecutionDetailsViewController.swift */,
+				FD9AB1B2216553AD00295342 /* ExecutionDetailsViewController.xib */,
+				FD9AB1AE216552E200295342 /* ExecutionControlsViewController.swift */,
+				FD9AB1AF216552E200295342 /* ExecutionControlsViewController.xib */,
 				767ADD1C20B8A2ED00877BD5 /* SimpleImageCollectionViewCell.swift */,
 			);
 			path = Screens;
@@ -388,6 +410,13 @@
 				76DFC0A920B9D6E9007C8DA9 /* DataProvider.swift */,
 			);
 			path = "Data Managers";
+			sourceTree = "<group>";
+		};
+		FD9AB1A32164DB6700295342 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		FDF1637920CB13C800745245 /* Storage */ = {
@@ -560,13 +589,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD9AB1A92164DFD600295342 /* ExerciseDescriptionViewController.xib in Resources */,
 				FDC41B9520DFA984009B2662 /* exercises.json in Resources */,
 				76DFC0AE20B9DCB4007C8DA9 /* ExerciseImages.xcassets in Resources */,
 				767ADC1820B8A29E00877BD5 /* LaunchScreen.storyboard in Resources */,
+				FD9AB1B4216553AE00295342 /* ExecutionDetailsViewController.xib in Resources */,
 				767ADD2A20B8A47A00877BD5 /* Localizable.strings in Resources */,
 				767ADD2620B8A3CA00877BD5 /* PrimaryMuscleGroups.xcassets in Resources */,
 				768AF25D21432B7F00ED84E0 /* OLD_EXECUTION.storyboard in Resources */,
 				767ADD2720B8A3CA00877BD5 /* SecondaryMusleGroups.xcassets in Resources */,
+				FD9AB1B1216552E200295342 /* ExecutionControlsViewController.xib in Resources */,
 				FDC41B9620DFA984009B2662 /* program.json in Resources */,
 				767ADC1520B8A29E00877BD5 /* Assets.xcassets in Resources */,
 				767ADC1320B8A29E00877BD5 /* Main.storyboard in Resources */,
@@ -615,12 +647,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FIT Fuze/Pods-FIT Fuze-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
+				"${BUILT_PRODUCTS_DIR}/SeedStackViewController/StackViewController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagicalRecord.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StackViewController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -663,7 +695,9 @@
 				768AF23D21432A0E00ED84E0 /* StartViewController.swift in Sources */,
 				A14CF43C20C0910000F13F06 /* WorkoutItem.swift in Sources */,
 				A10E439F20BA0078008378EB /* UsersPlan.swift in Sources */,
+				FD9AB1B5216553AE00295342 /* ExecutionDetailsViewController.swift in Sources */,
 				A10E439D20B9FC81008378EB /* Exercise.swift in Sources */,
+				FD42B933214D1EA50029EDF1 /* WorkoutViewController.swift in Sources */,
 				FDF1638B20CC6BF300745245 /* ExerciseStore.swift in Sources */,
 				76DFC0AC20B9D951007C8DA9 /* Workout.swift in Sources */,
 				768AF24121432A7300ED84E0 /* WorkoutCollectionViewCell.swift in Sources */,
@@ -674,7 +708,9 @@
 				76DFC0A720B9D66B007C8DA9 /* TrainingPlan.swift in Sources */,
 				767ADD2020B8A2EE00877BD5 /* SimpleImageCollectionViewCell.swift in Sources */,
 				768AF24221432A7300ED84E0 /* SettingsCollectionViewCell.swift in Sources */,
+				FD9AB1B0216552E200295342 /* ExecutionControlsViewController.swift in Sources */,
 				A14CF43E20C091B200F13F06 /* ExecutionDetails.swift in Sources */,
+				FD9AB1A82164DFD600295342 /* ExerciseDescriptionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
