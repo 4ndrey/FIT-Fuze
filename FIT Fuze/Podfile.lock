@@ -14,23 +14,21 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - MagicalRecord (2.3.2):
-    - MagicalRecord/Core (= 2.3.2)
-  - MagicalRecord/Core (2.3.2)
+  - SeedStackViewController (0.4.0)
 
 DEPENDENCIES:
   - AFNetworking
-  - MagicalRecord
+  - SeedStackViewController
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
-    - MagicalRecord
+    - SeedStackViewController
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  SeedStackViewController: 45e88ca1493a610e74d661d3feced7098f72dbd3
 
-PODFILE CHECKSUM: 8d4aa6fa8c5870e66187293d92bbfc22697967d0
+PODFILE CHECKSUM: 526b0c89838a4bac0561d454af23dca8736bc908
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.5.2
