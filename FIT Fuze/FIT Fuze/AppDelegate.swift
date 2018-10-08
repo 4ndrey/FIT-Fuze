@@ -13,7 +13,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let dataSync = DataWatchSync<SyncState>()
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        dataSync.delegate = self
+        dataSync.state = State(data: SyncState(counter: 0))
+
         return true
     }
 
@@ -39,6 +44,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
 }
 
+extension AppDelegate: DataWatchSyncDelegate {
+
+    func stateDidChanged(state: Codable) {
+        if let state = state as? SyncState {
+            print("iOS: \(state.counter)")
+            let newState = SyncState(counter: state.counter + 1)
+            dataSync.state = State(data: newState)
+        }
+    }
+
+    func stateSyncError(_ error: Error) {
+
+    }
+
+}

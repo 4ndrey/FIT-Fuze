@@ -14,21 +14,29 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - Communicator (3.1.0):
+    - TABObserverSet (= 2.1.0)
   - SeedStackViewController (0.4.0)
+  - TABObserverSet (2.1.0)
 
 DEPENDENCIES:
   - AFNetworking
+  - Communicator
   - SeedStackViewController
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - Communicator
     - SeedStackViewController
+    - TABObserverSet
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Communicator: 0758c0ec1f8447b48c8a4d351cab27e9e706723f
   SeedStackViewController: 45e88ca1493a610e74d661d3feced7098f72dbd3
+  TABObserverSet: dcdc5087b5dee54a9dcc29e155bb554394829f30
 
-PODFILE CHECKSUM: 526b0c89838a4bac0561d454af23dca8736bc908
+PODFILE CHECKSUM: 4918d4b50262745d4265c0c562afd48f0ada94b5
 
 COCOAPODS: 1.5.2

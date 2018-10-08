@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181F9504793C679F768AEB5E /* Pods_FIT_Fuze_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F36137230B0F26E76635CE3 /* Pods_FIT_Fuze_WatchKit_Extension.framework */; };
 		767ADC0E20B8A29E00877BD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767ADC0D20B8A29E00877BD5 /* AppDelegate.swift */; };
 		767ADC1020B8A29E00877BD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767ADC0F20B8A29E00877BD5 /* ViewController.swift */; };
 		767ADC1320B8A29E00877BD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767ADC1120B8A29E00877BD5 /* Main.storyboard */; };
@@ -45,6 +46,10 @@
 		A14CF44020C0928100F13F06 /* WorkoutExecutionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CF43F20C0928100F13F06 /* WorkoutExecutionHistory.swift */; };
 		A14CF44220C092E100F13F06 /* ExerciseExecutionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CF44120C092E100F13F06 /* ExerciseExecutionHistory.swift */; };
 		C4B63DB02B4413B0923D4DCD /* Pods_FIT_Fuze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EB3F455294D0CA5FDF1CF1 /* Pods_FIT_Fuze.framework */; };
+		FD122144216A922E005C03EE /* DataWatchSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD122143216A922E005C03EE /* DataWatchSync.swift */; };
+		FD122147216A9D7A005C03EE /* DataWatchSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD122143216A922E005C03EE /* DataWatchSync.swift */; };
+		FD122149216A9DDC005C03EE /* SyncState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD122148216A9DDC005C03EE /* SyncState.swift */; };
+		FD12214A216A9E12005C03EE /* SyncState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD122148216A9DDC005C03EE /* SyncState.swift */; };
 		FD42B933214D1EA50029EDF1 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42B932214D1EA50029EDF1 /* WorkoutViewController.swift */; };
 		FD9AB1A82164DFD600295342 /* ExerciseDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AB1A62164DFD600295342 /* ExerciseDescriptionViewController.swift */; };
 		FD9AB1A92164DFD600295342 /* ExerciseDescriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD9AB1A72164DFD600295342 /* ExerciseDescriptionViewController.xib */; };
@@ -119,6 +124,7 @@
 
 /* Begin PBXFileReference section */
 		191118EFBEE3CA1F76627CFE /* Pods-FIT Fuze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT Fuze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIT Fuze/Pods-FIT Fuze.debug.xcconfig"; sourceTree = "<group>"; };
+		2F36137230B0F26E76635CE3 /* Pods_FIT_Fuze_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIT_Fuze_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3488DA8B25CDE3A14F59C6 /* Pods-FIT Fuze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT Fuze.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIT Fuze/Pods-FIT Fuze.release.xcconfig"; sourceTree = "<group>"; };
 		767ADC0A20B8A29E00877BD5 /* FIT Fuze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FIT Fuze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		767ADC0D20B8A29E00877BD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -168,6 +174,10 @@
 		A14CF43F20C0928100F13F06 /* WorkoutExecutionHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutExecutionHistory.swift; sourceTree = "<group>"; };
 		A14CF44120C092E100F13F06 /* ExerciseExecutionHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseExecutionHistory.swift; sourceTree = "<group>"; };
 		A6EB3F455294D0CA5FDF1CF1 /* Pods_FIT_Fuze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIT_Fuze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2257C4106535FABB82ED3C /* Pods-FIT Fuze WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT Fuze WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIT Fuze WatchKit Extension/Pods-FIT Fuze WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		C80C297115ECC061DFCBB987 /* Pods-FIT Fuze WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIT Fuze WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIT Fuze WatchKit Extension/Pods-FIT Fuze WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		FD122143216A922E005C03EE /* DataWatchSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataWatchSync.swift; sourceTree = "<group>"; };
+		FD122148216A9DDC005C03EE /* SyncState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncState.swift; sourceTree = "<group>"; };
 		FD42B932214D1EA50029EDF1 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
 		FD9AB1A62164DFD600295342 /* ExerciseDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDescriptionViewController.swift; sourceTree = "<group>"; };
 		FD9AB1A72164DFD600295342 /* ExerciseDescriptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseDescriptionViewController.xib; sourceTree = "<group>"; };
@@ -211,6 +221,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181F9504793C679F768AEB5E /* Pods_FIT_Fuze_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				A6EB3F455294D0CA5FDF1CF1 /* Pods_FIT_Fuze.framework */,
+				2F36137230B0F26E76635CE3 /* Pods_FIT_Fuze_WatchKit_Extension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -237,6 +249,8 @@
 			children = (
 				191118EFBEE3CA1F76627CFE /* Pods-FIT Fuze.debug.xcconfig */,
 				5F3488DA8B25CDE3A14F59C6 /* Pods-FIT Fuze.release.xcconfig */,
+				BE2257C4106535FABB82ED3C /* Pods-FIT Fuze WatchKit Extension.debug.xcconfig */,
+				C80C297115ECC061DFCBB987 /* Pods-FIT Fuze WatchKit Extension.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -371,6 +385,7 @@
 				A10E439E20BA0078008378EB /* UsersPlan.swift */,
 				A14CF43F20C0928100F13F06 /* WorkoutExecutionHistory.swift */,
 				A14CF44120C092E100F13F06 /* ExerciseExecutionHistory.swift */,
+				FD122148216A9DDC005C03EE /* SyncState.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -408,6 +423,7 @@
 			isa = PBXGroup;
 			children = (
 				76DFC0A920B9D6E9007C8DA9 /* DataProvider.swift */,
+				FD122143216A922E005C03EE /* DataWatchSync.swift */,
 			);
 			path = "Data Managers";
 			sourceTree = "<group>";
@@ -513,9 +529,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 767ADC5420B8A2A000877BD5 /* Build configuration list for PBXNativeTarget "FIT Fuze WatchKit Extension" */;
 			buildPhases = (
+				9AC766D3329E58346889D8FA /* [CP] Check Pods Manifest.lock */,
 				767ADC3D20B8A29F00877BD5 /* Sources */,
 				767ADC3E20B8A29F00877BD5 /* Frameworks */,
 				767ADC3F20B8A29F00877BD5 /* Resources */,
+				DD53B237D9E68902FE66B16F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -639,6 +657,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9AC766D3329E58346889D8FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FIT Fuze WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AAA9D59CB0F4A3AB741FEFA4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -647,16 +683,40 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FIT Fuze/Pods-FIT Fuze-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Communicator-iOS/Communicator.framework",
 				"${BUILT_PRODUCTS_DIR}/SeedStackViewController/StackViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/TABObserverSet-iOS/TABObserverSet.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Communicator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StackViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TABObserverSet.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIT Fuze/Pods-FIT Fuze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD53B237D9E68902FE66B16F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FIT Fuze WatchKit Extension/Pods-FIT Fuze WatchKit Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Communicator-watchOS/Communicator.framework",
+				"${BUILT_PRODUCTS_DIR}/TABObserverSet-watchOS/TABObserverSet.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Communicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TABObserverSet.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIT Fuze WatchKit Extension/Pods-FIT Fuze WatchKit Extension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EC1704E834FD6727086A7E11 /* [CP] Check Pods Manifest.lock */ = {
@@ -684,6 +744,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD122144216A922E005C03EE /* DataWatchSync.swift in Sources */,
 				767ADD2120B8A2EE00877BD5 /* DetailedWorkoutCollectionViewCell.swift in Sources */,
 				767ADD2320B8A2EE00877BD5 /* MenuViewController.swift in Sources */,
 				76DFC0AA20B9D6E9007C8DA9 /* DataProvider.swift in Sources */,
@@ -691,6 +752,7 @@
 				767ADD2220B8A2EE00877BD5 /* CurrentPlanViewController.swift in Sources */,
 				767ADC1020B8A29E00877BD5 /* ViewController.swift in Sources */,
 				FDF1638720CC096800745245 /* UserPlansStore.swift in Sources */,
+				FD122149216A9DDC005C03EE /* SyncState.swift in Sources */,
 				FDF1637D20CB160900745245 /* TrainingPlanStore.swift in Sources */,
 				768AF23D21432A0E00ED84E0 /* StartViewController.swift in Sources */,
 				A14CF43C20C0910000F13F06 /* WorkoutItem.swift in Sources */,
@@ -735,6 +797,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				767ADC4B20B8A29F00877BD5 /* NotificationController.swift in Sources */,
+				FD122147216A9D7A005C03EE /* DataWatchSync.swift in Sources */,
+				FD12214A216A9E12005C03EE /* SyncState.swift in Sources */,
 				767ADC4D20B8A29F00877BD5 /* ComplicationController.swift in Sources */,
 				767ADC4920B8A29F00877BD5 /* ExtensionDelegate.swift in Sources */,
 				767ADC4720B8A29F00877BD5 /* InterfaceController.swift in Sources */,
@@ -910,6 +974,7 @@
 		};
 		767ADC5520B8A2A000877BD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE2257C4106535FABB82ED3C /* Pods-FIT Fuze WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -932,6 +997,7 @@
 		};
 		767ADC5620B8A2A000877BD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80C297115ECC061DFCBB987 /* Pods-FIT Fuze WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;

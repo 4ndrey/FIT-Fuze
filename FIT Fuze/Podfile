@@ -3,4 +3,9 @@ use_frameworks!
 target 'FIT Fuze' do
   pod 'AFNetworking'
   pod 'SeedStackViewController'
+  pod 'Communicator'
+end
+
+target 'FIT Fuze WatchKit Extension' do
+  pod 'Communicator'
 end

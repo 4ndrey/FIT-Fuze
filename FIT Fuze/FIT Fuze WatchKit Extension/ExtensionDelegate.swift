@@ -10,8 +10,11 @@ import WatchKit
 
 class ExtensionDelegate: NSObject, WKExtensionDelegate {
 
+    let dataSync = DataWatchSync<SyncState>()
+
     func applicationDidFinishLaunching() {
-        // Perform any final initialization of your application.
+        dataSync.delegate = self
+        dataSync.state = State(data: SyncState(counter: 0))
     }
 
     func applicationDidBecomeActive() {
@@ -45,6 +48,22 @@ class ExtensionDelegate: NSObject, WKExtensionDelegate {
                 task.setTaskCompletedWithSnapshot(false)
             }
         }
+    }
+
+}
+
+extension ExtensionDelegate: DataWatchSyncDelegate {
+
+    func stateDidChanged(state: Codable) {
+        if let state = state as? SyncState {
+            print("WatchKit: \(state.counter)")
+            let newState = SyncState(counter: state.counter + 1)
+            dataSync.state = State(data: newState)
+        }
+    }
+
+    func stateSyncError(_ error: Error) {
+
     }
 
 }
