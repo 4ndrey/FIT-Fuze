@@ -51,6 +51,8 @@
 		FD122149216A9DDC005C03EE /* SyncState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD122148216A9DDC005C03EE /* SyncState.swift */; };
 		FD12214A216A9E12005C03EE /* SyncState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD122148216A9DDC005C03EE /* SyncState.swift */; };
 		FD42B933214D1EA50029EDF1 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42B932214D1EA50029EDF1 /* WorkoutViewController.swift */; };
+		FD91354A217120EC003AD0DB /* DataCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD913549217120EC003AD0DB /* DataCompressor.swift */; };
+		FD91354B217120F3003AD0DB /* DataCompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD913549217120EC003AD0DB /* DataCompressor.swift */; };
 		FD9AB1A82164DFD600295342 /* ExerciseDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AB1A62164DFD600295342 /* ExerciseDescriptionViewController.swift */; };
 		FD9AB1A92164DFD600295342 /* ExerciseDescriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD9AB1A72164DFD600295342 /* ExerciseDescriptionViewController.xib */; };
 		FD9AB1B0216552E200295342 /* ExecutionControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AB1AE216552E200295342 /* ExecutionControlsViewController.swift */; };
@@ -179,6 +181,7 @@
 		FD122143216A922E005C03EE /* DataWatchSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataWatchSync.swift; sourceTree = "<group>"; };
 		FD122148216A9DDC005C03EE /* SyncState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncState.swift; sourceTree = "<group>"; };
 		FD42B932214D1EA50029EDF1 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		FD913549217120EC003AD0DB /* DataCompressor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCompressor.swift; sourceTree = "<group>"; };
 		FD9AB1A62164DFD600295342 /* ExerciseDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDescriptionViewController.swift; sourceTree = "<group>"; };
 		FD9AB1A72164DFD600295342 /* ExerciseDescriptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseDescriptionViewController.xib; sourceTree = "<group>"; };
 		FD9AB1AE216552E200295342 /* ExecutionControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionControlsViewController.swift; sourceTree = "<group>"; };
@@ -424,6 +427,7 @@
 			children = (
 				76DFC0A920B9D6E9007C8DA9 /* DataProvider.swift */,
 				FD122143216A922E005C03EE /* DataWatchSync.swift */,
+				FD913549217120EC003AD0DB /* DataCompressor.swift */,
 			);
 			path = "Data Managers";
 			sourceTree = "<group>";
@@ -754,6 +758,7 @@
 				FDF1638720CC096800745245 /* UserPlansStore.swift in Sources */,
 				FD122149216A9DDC005C03EE /* SyncState.swift in Sources */,
 				FDF1637D20CB160900745245 /* TrainingPlanStore.swift in Sources */,
+				FD91354A217120EC003AD0DB /* DataCompressor.swift in Sources */,
 				768AF23D21432A0E00ED84E0 /* StartViewController.swift in Sources */,
 				A14CF43C20C0910000F13F06 /* WorkoutItem.swift in Sources */,
 				A10E439F20BA0078008378EB /* UsersPlan.swift in Sources */,
@@ -798,6 +803,7 @@
 			files = (
 				767ADC4B20B8A29F00877BD5 /* NotificationController.swift in Sources */,
 				FD122147216A9D7A005C03EE /* DataWatchSync.swift in Sources */,
+				FD91354B217120F3003AD0DB /* DataCompressor.swift in Sources */,
 				FD12214A216A9E12005C03EE /* SyncState.swift in Sources */,
 				767ADC4D20B8A29F00877BD5 /* ComplicationController.swift in Sources */,
 				767ADC4920B8A29F00877BD5 /* ExtensionDelegate.swift in Sources */,

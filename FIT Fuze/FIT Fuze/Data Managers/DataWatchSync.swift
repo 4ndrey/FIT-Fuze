@@ -49,11 +49,13 @@ class DataWatchSync<T: Codable> {
         Communicator.shared.activationStateChangedObservers.add { debugPrint($0) }
 
         Communicator.shared.contextUpdatedObservers.add { [weak self] context in
-            if let data = context.content["state"] as? Data,
+            if let encodedData = context.content["state"] as? Data,
+               let size = context.content["size"] as? Int,
                let timestamp = context.content["timestamp"] as? TimeInterval {
                 if timestamp > (self?.state?.timestamp ?? 0) {
                     do {
-                        let data = try JSONDecoder().decode(T.self, from: data)
+                        let decodedData = DataCompressor.decompress(data: encodedData, expectedSize: size)
+                        let data = try JSONDecoder().decode(T.self, from: decodedData)
                         self?.state = State(data: data, timestamp: timestamp)
                         self?.delegate?.stateDidChanged(state: data)
                     } catch (let error) {
@@ -67,7 +69,8 @@ class DataWatchSync<T: Codable> {
     /// Sync abstract data with Watch App
     private func enqueueSync(state: State<T>) throws {
         let data = try JSONEncoder().encode(state.data)
-        let json: JSONDictionary = ["state": data, "timestamp": state.timestamp]
+        let encodedData = DataCompressor.compress(data: data)
+        let json: JSONDictionary = ["state": encodedData, "size": data.count, "timestamp": state.timestamp]
         let context = Context(content: json)
         try Communicator.shared.sync(context: context)
     }
