@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ExecutionDetailsViewController" customModule="FIT_Fuze" customModuleProvider="target">
             <connections>
+                <outlet property="collectionView" destination="SiW-jE-bLA" id="JAU-hp-mPl"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -23,18 +24,45 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7MA-ZV-V6G">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Execution Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b5d-sf-APD">
-                            <rect key="frame" x="122" y="40" width="131.5" height="21"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
+                        <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="SiW-jE-bLA">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="nHg-rK-Q5t"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="5LX-wV-Xc8">
+                                <size key="itemSize" width="98" height="86"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <cells/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="nHg-rK-Q5t"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="MyL-NR-YRF"/>
+                            </connections>
+                        </collectionView>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="triangle" translatesAutoresizingMaskIntoConstraints="NO" id="1Mh-FH-E9G">
+                            <rect key="frame" x="165.5" y="79" width="44" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="U32-kO-5fU"/>
+                                <constraint firstAttribute="height" constant="26" id="hLE-lr-wxV"/>
+                            </constraints>
+                        </imageView>
                     </subviews>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
+                        <constraint firstItem="SiW-jE-bLA" firstAttribute="top" secondItem="7MA-ZV-V6G" secondAttribute="top" id="3DH-hb-GcE"/>
                         <constraint firstAttribute="height" constant="100" id="RSe-Ov-W3U"/>
-                        <constraint firstItem="b5d-sf-APD" firstAttribute="centerY" secondItem="7MA-ZV-V6G" secondAttribute="centerY" id="bvG-Fp-Xi8"/>
-                        <constraint firstItem="b5d-sf-APD" firstAttribute="centerX" secondItem="7MA-ZV-V6G" secondAttribute="centerX" id="waL-KK-X5X"/>
+                        <constraint firstItem="1Mh-FH-E9G" firstAttribute="centerX" secondItem="7MA-ZV-V6G" secondAttribute="centerX" id="Tpw-tq-dwW"/>
+                        <constraint firstAttribute="trailing" secondItem="SiW-jE-bLA" secondAttribute="trailing" id="kes-8N-0Bk"/>
+                        <constraint firstAttribute="bottom" secondItem="1Mh-FH-E9G" secondAttribute="bottom" constant="-5" id="mLj-hN-K9b"/>
+                        <constraint firstItem="SiW-jE-bLA" firstAttribute="leading" secondItem="7MA-ZV-V6G" secondAttribute="leading" id="t8L-A1-sPk"/>
+                        <constraint firstAttribute="bottom" secondItem="SiW-jE-bLA" secondAttribute="bottom" id="vw7-Fh-aGb"/>
                     </constraints>
                 </view>
             </subviews>
@@ -50,4 +78,7 @@
             <point key="canvasLocation" x="33.5" y="175.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="triangle" width="44" height="26"/>
+    </resources>
 </document>

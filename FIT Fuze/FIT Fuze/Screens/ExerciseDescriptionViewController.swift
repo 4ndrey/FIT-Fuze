@@ -23,6 +23,10 @@ class ExerciseDescriptionViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        // stub
+        exercise = ExerciseStore.shared.get("Ab_Crunch_Machine")
+
         setupViews()
     }
 
@@ -40,7 +44,8 @@ class ExerciseDescriptionViewController: UIViewController {
     }
 
     func setupImage() {
-        let images = [UIImage]() // get from exercise
+        // get from exercise
+        let images = [1,2,3,4,5,6,7,8].map { UIImage(named: "\($0)")! }
 
         var array = images
         if array.count <= 7 {

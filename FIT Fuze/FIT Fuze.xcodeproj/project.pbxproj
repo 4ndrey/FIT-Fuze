@@ -46,6 +46,11 @@
 		A14CF44220C092E100F13F06 /* ExerciseExecutionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14CF44120C092E100F13F06 /* ExerciseExecutionHistory.swift */; };
 		C4B63DB02B4413B0923D4DCD /* Pods_FIT_Fuze.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EB3F455294D0CA5FDF1CF1 /* Pods_FIT_Fuze.framework */; };
 		FD42B933214D1EA50029EDF1 /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42B932214D1EA50029EDF1 /* WorkoutViewController.swift */; };
+		FD486BB22222D3D60084C0E9 /* ExerciseDetailsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486BB02222D3D60084C0E9 /* ExerciseDetailsCollectionCell.swift */; };
+		FD486BB32222D3D60084C0E9 /* ExerciseDetailsCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD486BB12222D3D60084C0E9 /* ExerciseDetailsCollectionCell.xib */; };
+		FD486BB62222D7A50084C0E9 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486BB52222D7A50084C0E9 /* UIColor+Ext.swift */; };
+		FD486BB92222FC1B0084C0E9 /* AddSetCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486BB72222FC1B0084C0E9 /* AddSetCollectionCell.swift */; };
+		FD486BBA2222FC1B0084C0E9 /* AddSetCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD486BB82222FC1B0084C0E9 /* AddSetCollectionCell.xib */; };
 		FD9AB1A82164DFD600295342 /* ExerciseDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AB1A62164DFD600295342 /* ExerciseDescriptionViewController.swift */; };
 		FD9AB1A92164DFD600295342 /* ExerciseDescriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD9AB1A72164DFD600295342 /* ExerciseDescriptionViewController.xib */; };
 		FD9AB1B0216552E200295342 /* ExecutionControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9AB1AE216552E200295342 /* ExecutionControlsViewController.swift */; };
@@ -151,7 +156,7 @@
 		767ADD1F20B8A2EE00877BD5 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		767ADD2420B8A3C900877BD5 /* PrimaryMuscleGroups.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PrimaryMuscleGroups.xcassets; sourceTree = "<group>"; };
 		767ADD2520B8A3CA00877BD5 /* SecondaryMusleGroups.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SecondaryMusleGroups.xcassets; sourceTree = "<group>"; };
-		767ADD2920B8A47A00877BD5 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		767ADD2920B8A47A00877BD5 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		768AF23C21432A0E00ED84E0 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		768AF23F21432A7300ED84E0 /* WorkoutCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutCollectionViewCell.swift; path = "FIT Fuze/Cells/WorkoutCollectionViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		768AF24021432A7300ED84E0 /* SettingsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsCollectionViewCell.swift; path = "FIT Fuze/Cells/SettingsCollectionViewCell.swift"; sourceTree = SOURCE_ROOT; };
@@ -169,6 +174,11 @@
 		A14CF44120C092E100F13F06 /* ExerciseExecutionHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseExecutionHistory.swift; sourceTree = "<group>"; };
 		A6EB3F455294D0CA5FDF1CF1 /* Pods_FIT_Fuze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FIT_Fuze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD42B932214D1EA50029EDF1 /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		FD486BB02222D3D60084C0E9 /* ExerciseDetailsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailsCollectionCell.swift; sourceTree = "<group>"; };
+		FD486BB12222D3D60084C0E9 /* ExerciseDetailsCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseDetailsCollectionCell.xib; sourceTree = "<group>"; };
+		FD486BB52222D7A50084C0E9 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		FD486BB72222FC1B0084C0E9 /* AddSetCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSetCollectionCell.swift; sourceTree = "<group>"; };
+		FD486BB82222FC1B0084C0E9 /* AddSetCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddSetCollectionCell.xib; sourceTree = "<group>"; };
 		FD9AB1A62164DFD600295342 /* ExerciseDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDescriptionViewController.swift; sourceTree = "<group>"; };
 		FD9AB1A72164DFD600295342 /* ExerciseDescriptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseDescriptionViewController.xib; sourceTree = "<group>"; };
 		FD9AB1AE216552E200295342 /* ExecutionControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionControlsViewController.swift; sourceTree = "<group>"; };
@@ -275,6 +285,7 @@
 				76DFC0A520B9CF13007C8DA9 /* FIT Fuze.entitlements */,
 				767ADD2D20B8AA6100877BD5 /* Data */,
 				767ADD2C20B8A85F00877BD5 /* Storyboards */,
+				FD486BB42222D78F0084C0E9 /* Misc */,
 				767ADD2B20B8A85300877BD5 /* Model */,
 				767ADD2820B8A3CC00877BD5 /* Assets */,
 				767ADD1B20B8A2DE00877BD5 /* Screens */,
@@ -331,7 +342,6 @@
 		767ADD1B20B8A2DE00877BD5 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				FD9AB1A32164DB6700295342 /* Base */,
 				768AF23C21432A0E00ED84E0 /* StartViewController.swift */,
 				767ADD1E20B8A2EE00877BD5 /* CurrentPlanViewController.swift */,
 				767ADD1D20B8A2ED00877BD5 /* DetailedWorkoutCollectionViewCell.swift */,
@@ -399,9 +409,12 @@
 			children = (
 				768AF24021432A7300ED84E0 /* SettingsCollectionViewCell.swift */,
 				768AF23F21432A7300ED84E0 /* WorkoutCollectionViewCell.swift */,
+				FD486BB02222D3D60084C0E9 /* ExerciseDetailsCollectionCell.swift */,
+				FD486BB12222D3D60084C0E9 /* ExerciseDetailsCollectionCell.xib */,
+				FD486BB72222FC1B0084C0E9 /* AddSetCollectionCell.swift */,
+				FD486BB82222FC1B0084C0E9 /* AddSetCollectionCell.xib */,
 			);
-			name = Cells;
-			path = "New Group";
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		76DFC0A820B9D6C4007C8DA9 /* Data Managers */ = {
@@ -412,11 +425,12 @@
 			path = "Data Managers";
 			sourceTree = "<group>";
 		};
-		FD9AB1A32164DB6700295342 /* Base */ = {
+		FD486BB42222D78F0084C0E9 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
+				FD486BB52222D7A50084C0E9 /* UIColor+Ext.swift */,
 			);
-			path = Base;
+			path = Misc;
 			sourceTree = "<group>";
 		};
 		FDF1637920CB13C800745245 /* Storage */ = {
@@ -595,7 +609,9 @@
 				767ADC1820B8A29E00877BD5 /* LaunchScreen.storyboard in Resources */,
 				FD9AB1B4216553AE00295342 /* ExecutionDetailsViewController.xib in Resources */,
 				767ADD2A20B8A47A00877BD5 /* Localizable.strings in Resources */,
+				FD486BB32222D3D60084C0E9 /* ExerciseDetailsCollectionCell.xib in Resources */,
 				767ADD2620B8A3CA00877BD5 /* PrimaryMuscleGroups.xcassets in Resources */,
+				FD486BBA2222FC1B0084C0E9 /* AddSetCollectionCell.xib in Resources */,
 				768AF25D21432B7F00ED84E0 /* OLD_EXECUTION.storyboard in Resources */,
 				767ADD2720B8A3CA00877BD5 /* SecondaryMusleGroups.xcassets in Resources */,
 				FD9AB1B1216552E200295342 /* ExecutionControlsViewController.xib in Resources */,
@@ -696,10 +712,12 @@
 				A14CF43C20C0910000F13F06 /* WorkoutItem.swift in Sources */,
 				A10E439F20BA0078008378EB /* UsersPlan.swift in Sources */,
 				FD9AB1B5216553AE00295342 /* ExecutionDetailsViewController.swift in Sources */,
+				FD486BB92222FC1B0084C0E9 /* AddSetCollectionCell.swift in Sources */,
 				A10E439D20B9FC81008378EB /* Exercise.swift in Sources */,
 				FD42B933214D1EA50029EDF1 /* WorkoutViewController.swift in Sources */,
 				FDF1638B20CC6BF300745245 /* ExerciseStore.swift in Sources */,
 				76DFC0AC20B9D951007C8DA9 /* Workout.swift in Sources */,
+				FD486BB22222D3D60084C0E9 /* ExerciseDetailsCollectionCell.swift in Sources */,
 				768AF24121432A7300ED84E0 /* WorkoutCollectionViewCell.swift in Sources */,
 				FDF1638920CC5C4700745245 /* JSONParser.swift in Sources */,
 				A14CF44020C0928100F13F06 /* WorkoutExecutionHistory.swift in Sources */,
@@ -710,6 +728,7 @@
 				768AF24221432A7300ED84E0 /* SettingsCollectionViewCell.swift in Sources */,
 				FD9AB1B0216552E200295342 /* ExecutionControlsViewController.swift in Sources */,
 				A14CF43E20C091B200F13F06 /* ExecutionDetails.swift in Sources */,
+				FD486BB62222D7A50084C0E9 /* UIColor+Ext.swift in Sources */,
 				FD9AB1A82164DFD600295342 /* ExerciseDescriptionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -997,7 +1016,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "FIT Fuze/FIT Fuze.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J8NW6SD29Q;
+				DEVELOPMENT_TEAM = W9C678CKSD;
 				INFOPLIST_FILE = "FIT Fuze/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1018,7 +1037,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "FIT Fuze/FIT Fuze.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J8NW6SD29Q;
+				DEVELOPMENT_TEAM = W9C678CKSD;
 				INFOPLIST_FILE = "FIT Fuze/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
